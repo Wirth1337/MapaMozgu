@@ -189,6 +189,7 @@ testowania
 trznego
 trzeba
 trafiaj
+twarde
 date
 dkuj
 dashboard
@@ -383,6 +384,10 @@ dyskowym
 dzieleniu
 daty
 dyskami
+dra
+dzania
+dnych
+deamony
 YYYY
 You
 Yj
@@ -555,6 +560,8 @@ Makra
 Motywy
 Metafora
 Montowanie
+MAC
+Monitoruj
 DD
 Data
 Dlaczego
@@ -958,6 +965,13 @@ symboliczne
 strukturze
 starcie
 stan
+solidnych
+sieciowa
+sta
+skaner
+synchronizacja
+skanowanie
+skany
 Remember
 Recon
 REMEMBER
@@ -1077,6 +1091,8 @@ Restartujemy
 Rsync
 Rozszerza
 RAM
+Regularne
+RHEL
 Organize
 ORGANIZE
 Ongoing
@@ -1175,6 +1191,7 @@ Okna
 Ograniczenia
 Odmontowywanie
 Odmontowanie
+OSSEC
 Question
 QUESTION
 Quotes
@@ -1439,6 +1456,9 @@ config
 cgroup
 cpu
 czne
+cho
+czanie
+chkrootkit
 CyberSec
 CTF
 CheatSheet
@@ -1575,6 +1595,9 @@ Configuration
 CLI
 Containerization
 CPU
+CentOS
+Chrony
+ClamAV
 Web
 Wellness
 Workouts
@@ -1687,6 +1710,7 @@ Windows
 Windowsem
 Wyb
 Wydajno
+Wrappers
 Exploits
 EXERCISES
 Efficiency
@@ -1783,6 +1807,8 @@ Ekran
 Edycja
 Engine
 Element
+Edytuj
+Edukacja
 Network
 Note
 Notice
@@ -1881,6 +1907,8 @@ Nawigacja
 Nagrywanie
 NERDTree
 NTFS
+Nowoczesne
+NTP
 Forensics
 Fragmenty
 Focus
@@ -1976,6 +2004,8 @@ FYI
 FTPS
 Find
 Fuzzy
+Firewall
+Fail
 General
 Games
 Guide
@@ -2064,6 +2094,7 @@ GX
 GPG
 Graficzny
 Grupy
+Generuj
 Lab
 Linki
 Life
@@ -2159,6 +2190,7 @@ Lighttpd
 Linuxowej
 LSP
 LXC
+Lynis
 Status
 Spacer
 Sources
@@ -2312,6 +2344,14 @@ Statusline
 Skonfiguruj
 Struktura
 SWAP
+Snapshoty
+Sudoers
+SELinux
+Syslog
+Silne
+Snort
+Suricata
+SIEM
 Type
 Tagowanie
 Table
@@ -2430,6 +2470,8 @@ Telescope
 Tworzenie
 Typy
 Tablica
+Tripwire
+TCP
 Zbieraj
 Zastosowanie
 Zettelkasten
@@ -2541,6 +2583,9 @@ Zak
 Zaawansowane
 Zapewniaj
 Zadbaj
+Zabezpieczanie
+Zapora
+Zalecamy
 informacje
 is
 in
@@ -2680,6 +2725,8 @@ izolacj
 instrumenty
 integralno
 inod
+iptables
+indywidualnie
 Uporz
 Upcoming
 University
@@ -2783,6 +2830,10 @@ Uom
 UuR
 Usuwanie
 Uruchom
+Unattended
+Upgrades
+Unikaj
+Utrzymuj
 podziel
 punkty
 przyk
@@ -3101,6 +3152,20 @@ pami
 przestrze
 przestrzeni
 partitions
+podatny
+podstaw
+poprawki
+pca
+prostsza
+par
+pojedyncze
+policy
+profilu
+password
+przestarza
+poziomie
+produkt
+polityki
 na
 notatki
 notes
@@ -3274,6 +3339,14 @@ nowoczesnych
 nia
 nika
 normalnie
+nios
+nara
+nftables
+najmniejszych
+niepotrzebne
+now
+nazwie
+nej
 zlinkuj
 zane
 zmieni
@@ -3477,6 +3550,9 @@ zaawansowany
 zapasowa
 zawieszania
 zapisywany
+zdarze
+zbieranie
+zast
 Kluczowe
 Key
 Knowledge
@@ -3750,6 +3826,7 @@ Powtarzanie
 Pluginy
 Potrzeb
 Podgl
+Profilowanie
 Jak
 John
 Jakbym
@@ -4042,6 +4119,10 @@ wybra
 widzi
 wpis
 wirtualna
+wirusy
+warstwa
+world
+writable
 gdy
 goal
 growing
@@ -4288,6 +4369,7 @@ localhost
 limit
 lokalizacjach
 logicznego
+lynis
 bash
 busy
 by
@@ -4590,6 +4672,14 @@ attach
 aplikacjom
 aktywnego
 automatycznego
+amania
+aktualizacje
+aktualizacjami
+audit
+auditd
+aging
+antywirus
+administratorzy
 Heading
 Highlights
 Health
@@ -4668,6 +4758,7 @@ HN
 Hypertext
 HTTP
 HTTPS
+HIDS
 Bullet
 Bold
 Blockquotes
@@ -4765,6 +4856,9 @@ Bw
 BTW
 Bufory
 Btrfs
+Bezpieczny
+Ban
+Bezpiecze
 Italic
 Important
 Idea
@@ -4868,6 +4962,8 @@ Insert
 Integralno
 Inody
 Innych
+IDS
+IPS
 of
 other
 own
@@ -5028,6 +5124,7 @@ organizowania
 odzyskiwania
 odpi
 otwartych
+organizuj
 happens
 here
 hierarchies
@@ -5198,6 +5295,7 @@ ytkownikom
 yank
 ywany
 ywana
+ymi
 re
 review
 repository
@@ -5362,6 +5460,12 @@ restart
 ruchem
 rozmiar
 rzadziej
+rollback
+razie
+rkhunter
+rootkit
+rsyslog
+rodka
 making
 my
 main
@@ -5511,6 +5615,8 @@ montowanie
 magazynu
 montuj
 many
+monitorowanie
+musz
 just
 jak
 jako
@@ -5722,6 +5828,8 @@ exploita
 ext
 ego
 emu
+exposowanymi
+enable
 vault
 ve
 visualize
@@ -5941,6 +6049,8 @@ uruchamiania
 uruchamiane
 utrwali
 uruchomieniu
+ufw
+usuwaj
 Areas
 Active
 Algorithm
@@ -6053,6 +6163,11 @@ Albo
 Amazon
 Automatyczne
 Aktywacja
+Autoryzuj
+Audyt
+AIDE
+Audytuj
+Aktualizuj
 Vault
 Visual
 Variation
@@ -6231,6 +6346,9 @@ finder
 fzf
 funkcjami
 fizycznego
+fundament
+firewalld
+firewalla
 knowledge
 key
 keeping
@@ -6380,6 +6498,8 @@ kontenerze
 kartoteka
 kart
 katalogi
+komputerowe
+konieczny
 quick
 questions
 queries

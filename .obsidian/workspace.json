@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Knowledge/Computer/CyberSecurity/Linux/Zapory sieciowe.md",
+                "file": "02 - Knowledge/Computer/CyberSecurity/Linux/Logi.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Zapory sieciowe"
+              "title": "Logi"
             }
           }
         ]
@@ -98,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 355
+    "width": 355,
+    "collapsed": true
   },
   "right": {
     "id": "62568a0377e7edf7",
@@ -236,6 +237,7 @@
   "active": "f6db37c3eb4f6f38",
   "lastOpenFiles": [
     "02 - Knowledge/Computer/CyberSecurity/Linux/Zabezpieczenia Linux.md",
+    "02 - Knowledge/Computer/CyberSecurity/Linux/Logi.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Zapory sieciowe.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Protokoły zdalnego pulpitu.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Konfiguracja Sieci.md",
@@ -274,7 +276,6 @@
     "04 - References/Courses/HTB",
     "02 - Knowledge/Computer/CyberSecurity/Linux/LinuxCheatSheet.md",
     "04 - References/Books/Cybersecurity/Linux/Bez nazwy.md",
-    "link.md",
     "04 - References/Books/Cybersecurity/Linux",
     "04 - References/Books/Cybersecurity",
     "01_Reference",
