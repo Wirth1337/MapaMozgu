@@ -357,6 +357,9 @@ dostosowa
 danym
 dodatkowy
 darce
+dark
+dom
+dodawa
 YYYY
 You
 Yj
@@ -885,6 +888,7 @@ standardowymy
 serverem
 szyfrowanie
 sieciowych
+silnikiem
 Remember
 Recon
 REMEMBER
@@ -2285,6 +2289,7 @@ TP
 Tworz
 Transfer
 Ten
+Tak
 Zbieraj
 Zastosowanie
 Zettelkasten
@@ -2905,6 +2910,8 @@ pozostaj
 popularnych
 przystosowanie
 potencjalnych
+pokoje
+przystosowany
 na
 notatki
 notes
@@ -3332,6 +3339,7 @@ KgE
 KDOl
 KM
 Kl
+Kluczowym
 Powi
 Podkategorie
 Pytania
@@ -4270,6 +4278,7 @@ acgL
 acG
 aplikacje
 atak
+apache
 Heading
 Highlights
 Health
@@ -5342,6 +5351,7 @@ ePmJ
 eksploracj
 edytowania
 edycje
+elementem
 vault
 ve
 visualize
@@ -5657,6 +5667,7 @@ Au
 Apache
 Arch
 Aby
+Albo
 Vault
 Visual
 Variation
@@ -5827,6 +5838,7 @@ fragment
 folderze
 folderem
 funkcjonuje
+fundamentami
 knowledge
 key
 keeping
@@ -5957,6 +5969,7 @@ kszaj
 klientem
 kompatybilny
 kszta
+komunikacja
 quick
 questions
 queries

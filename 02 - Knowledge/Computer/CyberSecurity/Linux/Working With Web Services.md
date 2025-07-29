@@ -10,15 +10,29 @@ tags:
 date: 2025-07-29
 last_updated: 2025-07-29
 ---
-#apache 
+#apache #networking 
 #  [[Linux Main|Study - {{Linux}}]] 
 
 ## Ogólnie
-robo
+Kluczowym elementem w web development jest komunikacja między przeglądarką i serwerem. 
+Apache jest silnikiem dla strony.
 
+Albo fundamentami pod dom. Tak jak można dodawać inne pokoje tak do apache można dodawać moduły każdy przystosowany do konkretnego użycia.
+
+---
 ## Content
-### Topic 1
-Main content here...
+## Apache 
+
+Instalujemy Apache `sudo apt install apache2 -y`
+![[Pasted image 20250729135634.png]]
+**Następnie możemy wystartować server za pomocą:
+- `apache2ctl
+- `systemctl
+- `service
+Można też użyć apache2 binary ale sie nie zaleca (zmienne środowiskowe w defaultowej konfiguracji)
+`sudo systemctl start apache2`
+![[Pasted image 20250729135825.png]]
+
 
 ### Topic 2
 Main content here...
