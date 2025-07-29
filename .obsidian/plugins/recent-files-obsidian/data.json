@@ -5,6 +5,10 @@
       "path": "02 - Knowledge/Computer/CyberSecurity/Linux/Containerization.md"
     },
     {
+      "basename": "VIM",
+      "path": "02 - Knowledge/Computer/CyberSecurity/Linux/VIM.md"
+    },
+    {
       "basename": "Bez nazwy",
       "path": "Bez nazwy.canvas"
     },
@@ -83,10 +87,6 @@
     {
       "basename": "Deskryptory",
       "path": "02 - Knowledge/Computer/CyberSecurity/Linux/Deskryptory.md"
-    },
-    {
-      "basename": "VIM",
-      "path": "02 - Knowledge/Computer/CyberSecurity/Linux/VIM.md"
     },
     {
       "basename": "Guide to Tags and Links - Note Organization in Obsidian",

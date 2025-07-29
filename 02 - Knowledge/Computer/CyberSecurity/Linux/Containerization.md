@@ -215,8 +215,16 @@ sudo lxc-attach -n linuxcontainer  # Wejście do środka
 	    `sudo apt install lxc` - instalacja
 	    
 - Skonfiguruj sieć w kontenerze
-    
+	    jako root `cd /var/lib/lxc/linuxcontainer`
+	    tam znajdujemy config i edytujemy sekcję:
+	    
+	    lxc.net.0.type = veth
+		lxc.net.0.link = lxcbr0
+		lxc.net.0.flags = up
+		lxc.net.0.hwaddr = 00:16:3e:xx:xx:xx
+
 - Stwórz własny rootfs i uruchom z niego kontener
+	- 
     
 - Nałóż limity CPU/RAM
     
