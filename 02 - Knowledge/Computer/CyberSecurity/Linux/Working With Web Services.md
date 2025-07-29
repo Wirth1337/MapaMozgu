@@ -32,7 +32,19 @@ Instalujemy Apache `sudo apt install apache2 -y`
 Można też użyć apache2 binary ale sie nie zaleca (zmienne środowiskowe w defaultowej konfiguracji)
 `sudo systemctl start apache2`
 ![[Pasted image 20250729135825.png]]
-
+**Gdy Apache się ruchomi możemy użyć przeglądarki do `http://localhost` Domyślnie na porcie 80
+![[apache-default.webp]]
+Podczas ćwiczenia na virtualce wyskakuje błąd.
+Prawdopodobnie błąd portu, żeby go zmienić
+`sudo nano /etc/apache2/port.conf`
+Zmieniamy port z 80 na 8080
+![[Pasted image 20250729141244.png]]
+Następnie `sudo systemctl restart apache2`
+sudo tail -n 30 /var/log/apache2/error.log
+sudo lsof -i :80
+sudo netstat -tulnp | grep :80
+sudo apt autoremove --purge -y
+sudo apt purge -y apache2* && sudo apt autoremove --purge -y && sudo rm -rf /etc/apache2 /var/www/html /var/log/apache2
 
 ### Topic 2
 Main content here...
