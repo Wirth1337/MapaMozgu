@@ -110,6 +110,8 @@ Plik `/etc/exports` może wyglądać tak:
 `
 Oznacza to, że cały subnet ma dostęp do `/srv/nfs/data` z prawem zapisu, z synchronizacją danych i bez sprawdzania poddrzewa katalogów.
 
+sdas
+
 ---
 #
 
