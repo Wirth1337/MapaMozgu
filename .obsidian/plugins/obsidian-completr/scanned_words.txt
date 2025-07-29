@@ -186,6 +186,9 @@ tree
 technika
 tracisz
 testowania
+trznego
+trzeba
+trafiaj
 date
 dkuj
 dashboard
@@ -375,6 +378,11 @@ definiujesz
 desktopie
 dziel
 drog
+dyskach
+dyskowym
+dzieleniu
+daty
+dyskami
 YYYY
 You
 Yj
@@ -546,6 +554,7 @@ Markup
 Makra
 Motywy
 Metafora
+Montowanie
 DD
 Data
 Dlaczego
@@ -942,6 +951,13 @@ storage
 ssh
 sysctl
 shares
+starszy
+stabilne
+snapshot
+symboliczne
+strukturze
+starcie
+stan
 Remember
 Recon
 REMEMBER
@@ -1157,6 +1173,8 @@ OpenVPN
 Obs
 Okna
 Ograniczenia
+Odmontowywanie
+Odmontowanie
 Question
 QUESTION
 Quotes
@@ -1420,6 +1438,7 @@ container
 config
 cgroup
 cpu
+czne
 CyberSec
 CTF
 CheatSheet
@@ -1664,6 +1683,10 @@ Wprowadzenie
 Wchodzenie
 Wklejanie
 Wyra
+Windows
+Windowsem
+Wyb
+Wydajno
 Exploits
 EXERCISES
 Efficiency
@@ -1759,6 +1782,7 @@ ESC
 Ekran
 Edycja
 Engine
+Element
 Network
 Note
 Notice
@@ -1856,6 +1880,7 @@ Normal
 Nawigacja
 Nagrywanie
 NERDTree
+NTFS
 Forensics
 Fragmenty
 Focus
@@ -2038,6 +2063,7 @@ Gi
 GX
 GPG
 Graficzny
+Grupy
 Lab
 Linki
 Life
@@ -2284,6 +2310,8 @@ SCP
 Skr
 Statusline
 Skonfiguruj
+Struktura
+SWAP
 Type
 Tagowanie
 Table
@@ -2400,6 +2428,8 @@ Tworzy
 Tryby
 Telescope
 Tworzenie
+Typy
+Tablica
 Zbieraj
 Zastosowanie
 Zettelkasten
@@ -2648,6 +2678,8 @@ insert
 izolowanych
 izolacj
 instrumenty
+integralno
+inod
 Uporz
 Upcoming
 University
@@ -3056,6 +3088,19 @@ plug
 prod
 pude
 persystencj
+przechowywania
+przydatny
+przechowuj
+pracy
+partycjami
+przypisania
+partycji
+point
+przypi
+pami
+przestrze
+przestrzeni
+partitions
 na
 notatki
 notes
@@ -3225,6 +3270,10 @@ nawigacja
 nvim
 nord
 niezale
+nowoczesnych
+nia
+nika
+normalnie
 zlinkuj
 zane
 zmieni
@@ -3423,6 +3472,11 @@ znakach
 zwanych
 zatrzymaniu
 zasob
+zastosowanie
+zaawansowany
+zapasowa
+zawieszania
+zapisywany
 Kluczowe
 Key
 Knowledge
@@ -3513,6 +3567,8 @@ Klucze
 Konfiguracja
 Kontenery
 Kontener
+Kompatybilno
+Katalogi
 Powi
 Podkategorie
 Pytania
@@ -3692,6 +3748,8 @@ Przeszukiwanie
 Praca
 Powtarzanie
 Pluginy
+Potrzeb
+Podgl
 Jak
 John
 Jakbym
@@ -3978,6 +4036,12 @@ wdra
 wiat
 wchodzenia
 wolumin
+wyb
+wietny
+wybra
+widzi
+wpis
+wirtualna
 gdy
 goal
 growing
@@ -4222,6 +4286,8 @@ low
 lxc
 localhost
 limit
+lokalizacjach
+logicznego
 bash
 busy
 by
@@ -4342,6 +4408,8 @@ backupu
 backupy
 before
 bytes
+bibliotece
+bibliotecznych
 ad
 an
 assumes
@@ -4519,6 +4587,9 @@ aplikacjami
 atwiaj
 asnego
 attach
+aplikacjom
+aktywnego
+automatycznego
 Heading
 Highlights
 Health
@@ -4693,6 +4764,7 @@ BsN
 Bw
 BTW
 Bufory
+Btrfs
 Italic
 Important
 Idea
@@ -4793,6 +4865,9 @@ Install
 Instalujemy
 Idealne
 Insert
+Integralno
+Inody
+Innych
 of
 other
 own
@@ -4949,6 +5024,10 @@ odpowiedzi
 odtw
 onedark
 obrazu
+organizowania
+odzyskiwania
+odpi
+otwartych
 happens
 here
 hierarchies
@@ -5037,6 +5116,8 @@ hostowanie
 hostowania
 hostowa
 histori
+hibernacja
+hibernacji
 you
 your
 ytkownika
@@ -5115,6 +5196,8 @@ yZ
 ywanymi
 ytkownikom
 yank
+ywany
+ywana
 re
 review
 repository
@@ -5276,6 +5359,9 @@ reakcje
 rozjeba
 rodowiskach
 restart
+ruchem
+rozmiar
+rzadziej
 making
 my
 main
@@ -5418,6 +5504,13 @@ mapowania
 mount
 memory
 malware
+mechanizmu
+multimedia
+mounting
+montowanie
+magazynu
+montuj
+many
 just
 jak
 jako
@@ -5502,6 +5595,8 @@ jgX
 jS
 jP
 jne
+journalingu
+journalingiem
 example
 exist
 efficiency
@@ -5624,6 +5719,9 @@ ejsze
 exec
 entry
 exploita
+ext
+ego
+emu
 vault
 ve
 visualize
@@ -5701,6 +5799,7 @@ virtualce
 very
 vim
 vimspector
+vda
 use
 updated
 using
@@ -5841,6 +5940,7 @@ uruchomienie
 uruchamiania
 uruchamiane
 utrwali
+uruchomieniu
 Areas
 Active
 Algorithm
@@ -5951,6 +6051,8 @@ Arch
 Aby
 Albo
 Amazon
+Automatyczne
+Aktywacja
 Vault
 Visual
 Variation
@@ -6127,6 +6229,8 @@ filtry
 filozofii
 finder
 fzf
+funkcjami
+fizycznego
 knowledge
 key
 keeping
@@ -6273,6 +6377,9 @@ kontenery
 kontenera
 kontenerem
 kontenerze
+kartoteka
+kart
+katalogi
 quick
 questions
 queries
@@ -6453,4 +6560,5 @@ XP
 Xa
 Xom
 XW
+XFS
 ÜI

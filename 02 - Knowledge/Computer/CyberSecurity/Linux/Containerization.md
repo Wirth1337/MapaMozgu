@@ -175,7 +175,17 @@ sudo lxc-attach -n linuxcontainer  # Wejście do środka
 ## ⚙️ Ograniczenia zasobów (CPU, RAM)
 
 `sudo vim /usr/share/lxc/config/linuxcontainer.conf
+# Konfiguracja sieci w systemie Linux
 
+Konfiguracja sieci w systemach Linux to kluczowa umiejętność – zwłaszcza dla pentesterów – umożliwiająca przygotowanie środowisk testowych, manipulację ruchem i analizę potencjalnych luk w zabezpieczeniach. Ważne jest zrozumienie sposobu zarządzania interfejsami sieciowymi (np. przewodowymi i bezprzewodowymi) oraz protokołów sieciowych (TCP/IP, DNS, DHCP, FTP itp.). Znajomość tych mechanizmów pozwala na precyzyjne dostosowywanie konfiguracji sieciowej w celu zoptymalizowania testów i wyników.
+
+---
+
+## Konfigurowanie interfejsów sieciowych
+
+W nowoczesnych dystrybucjach Linux (np. Ubuntu, Debian) do zarządzania interfejsami sieciowymi zamiast przestarzałych narzędzi `ifconfig` i `route` stosuje się pakiet iproute2. Polecenia te są szybsze i bardziej przejrzyste[askubuntu.com](https://askubuntu.com/questions/1025568/has-netstat-been-replaced-with-a-new-tool#:~:text=52)[redhat.com](https://www.redhat.com/en/blog/route-ip-route#:~:text=%5Broot%40rhel%20~%5D,1). Przykładowe komendy:
+
+Wyświetlanie interfejsów i adresów:
 `lxc.cgroup.cpu.shares = 512
 `lxc.cgroup.memory.limit_in_bytes = 512M
 

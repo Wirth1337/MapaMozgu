@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "Zapory sieciowe",
+      "path": "02 - Knowledge/Computer/CyberSecurity/Linux/Zapory sieciowe.md"
+    },
+    {
+      "basename": "Zabezpieczenia Linux",
+      "path": "02 - Knowledge/Computer/CyberSecurity/Linux/Zabezpieczenia Linux.md"
+    },
+    {
+      "basename": "Protokoły zdalnego pulpitu",
+      "path": "02 - Knowledge/Computer/CyberSecurity/Linux/Protokoły zdalnego pulpitu.md"
+    },
+    {
+      "basename": "Konfiguracja Sieci",
+      "path": "02 - Knowledge/Computer/CyberSecurity/Linux/Konfiguracja Sieci.md"
+    },
+    {
+      "basename": "File Managment System",
+      "path": "02 - Knowledge/Computer/CyberSecurity/Linux/File Managment System.md"
+    },
+    {
+      "basename": "Linux Main",
+      "path": "02 - Knowledge/Computer/CyberSecurity/Linux/Linux Main.md"
+    },
+    {
       "basename": "Containerization",
       "path": "02 - Knowledge/Computer/CyberSecurity/Linux/Containerization.md"
     },
@@ -13,16 +37,8 @@
       "path": "Bez nazwy.canvas"
     },
     {
-      "basename": "File Managment System",
-      "path": "02 - Knowledge/Computer/CyberSecurity/Linux/File Managment System.md"
-    },
-    {
       "basename": "Network Services",
       "path": "02 - Knowledge/Computer/CyberSecurity/Linux/Network Services.md"
-    },
-    {
-      "basename": "Linux Main",
-      "path": "02 - Knowledge/Computer/CyberSecurity/Linux/Linux Main.md"
     },
     {
       "basename": "Task Scheduling",

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Knowledge/Computer/CyberSecurity/Linux/Containerization.md",
+                "file": "02 - Knowledge/Computer/CyberSecurity/Linux/Zapory sieciowe.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Containerization"
+              "title": "Zapory sieciowe"
             }
           }
         ]
@@ -98,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 355,
-    "collapsed": true
+    "width": 355
   },
   "right": {
     "id": "62568a0377e7edf7",
@@ -215,7 +214,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -236,13 +236,17 @@
   },
   "active": "f6db37c3eb4f6f38",
   "lastOpenFiles": [
-    "02 - Knowledge/Computer/CyberSecurity/Linux/VIM.md",
-    "02 - Knowledge/Computer/CyberSecurity/Linux/Containerization.md",
-    "Bez nazwy.canvas",
+    "02 - Knowledge/Computer/CyberSecurity/Linux/Zabezpieczenia Linux.md",
+    "02 - Knowledge/Computer/CyberSecurity/Linux/Zapory sieciowe.md",
+    "02 - Knowledge/Computer/CyberSecurity/Linux/Protokoły zdalnego pulpitu.md",
+    "02 - Knowledge/Computer/CyberSecurity/Linux/Konfiguracja Sieci.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/File Managment System.md",
+    "02 - Knowledge/Computer/CyberSecurity/Linux/Linux Main.md",
+    "02 - Knowledge/Computer/CyberSecurity/Linux/Containerization.md",
+    "02 - Knowledge/Computer/CyberSecurity/Linux/VIM.md",
+    "Bez nazwy.canvas",
     "01_Reference/Pasted image 20250729210341.png",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Network Services.md",
-    "02 - Knowledge/Computer/CyberSecurity/Linux/Linux Main.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Task Scheduling.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Backup.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Working With Web Services.md",
@@ -274,12 +278,8 @@
     "link.md",
     "04 - References/Books/Cybersecurity/Linux",
     "04 - References/Books/Cybersecurity",
-    "Excalidraw/Drawing 2025-07-27 18.08.10.excalidraw.md",
     "01_Reference",
     "Excalidraw",
-    "Markdown Cheatsheat.md",
-    "99 - Meta/System/Practical Usage Guide.md",
-    "99 - Meta/System/Organizational Methods in Obsidian.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux",
     "02 - Knowledge/Computer/CyberSecurity",
     "08_Scripts"
