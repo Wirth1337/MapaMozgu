@@ -227,8 +227,17 @@ sudo lxc-attach -n linuxcontainer  # Wejście do środka
 	- `mkdir -p ~/lxc_rootfs/debian-minimal`
 		- sudo apt install debootstrap
 		- sudo debootstrap stable ~/lxc_rootfs/debian-minimal http://deb.debian.org/debian
-
-
+		  sudo mkdir -p /var/lib/lxc/deb1/rootfs
+		- sudo cp -a ~/lxc_rootfs/debian-minimal/. /var/lib/lxc/deb1/rootfs/
+		- sudo nano /var/lib/lxc/deb1/config
+		- lxc.include = /usr/share/lxc/config/common.conf
+		- lxc.arch = linux64
+		- lxc.rootfs.path = dir:/var/lib/lxc/deb1/rootfs
+		- lxc.uts.name = deb1
+		- lxc.net.0.type = veth
+		- lxc.net.0.link = lxcbr0
+		- lxc.net.0.flags = up
+		- lxc.net.0.hwaddr = 00:16:3e:xx:xx:xx
     
 - Nałóż limity CPU/RAM
     
