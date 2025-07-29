@@ -224,7 +224,11 @@ sudo lxc-attach -n linuxcontainer  # Wejście do środka
 		lxc.net.0.hwaddr = 00:16:3e:xx:xx:xx
 
 - Stwórz własny rootfs i uruchom z niego kontener
-	- 
+	- `mkdir -p ~/lxc_rootfs/debian-minimal`
+		- sudo apt install debootstrap
+		- sudo debootstrap stable ~/lxc_rootfs/debian-minimal http://deb.debian.org/debian
+
+
     
 - Nałóż limity CPU/RAM
     
