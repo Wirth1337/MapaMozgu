@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Knowledge/Computer/CyberSecurity/Linux/Logi.md",
+                "file": "02 - Knowledge/Computer/CyberSecurity/Linux/Zapory sieciowe.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Logi"
+              "title": "Zapory sieciowe"
             }
           }
         ]
@@ -98,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 355,
-    "collapsed": true
+    "width": 355
   },
   "right": {
     "id": "62568a0377e7edf7",

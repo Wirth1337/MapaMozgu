@@ -168,12 +168,13 @@ sudo ufw enable
 1. Uruchom serwer WWW na porcie 8080 i zablokuj do niego ruch:
 2. Zmień reguły, aby zezwalać na ruch do portu 8080.
 3. Zablokuj ruch z wybranego adresu IP:
-
-
-
-
-
-
+4. Zezwól ruch z konkretnego IP:`
+5. Zablokuj ruch ICMP (ping):  
+6. Zezwól ruch UDP:  
+7. Utwórz łańcuch użytkownika WEB:  
+8. Przekieruj ruch HTTP do łańcucha WEB:  
+9. Usuń regułę blokującą port 8080 (znajdź numer reguły `iptables -L --line-numbers`):  
+10. Wyświetl wszystkie reguły:
 
 
 
