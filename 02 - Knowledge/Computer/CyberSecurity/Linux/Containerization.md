@@ -110,6 +110,66 @@ sudo lxc-attach -n linuxcontainer  # Wejście do środka
 
 ```
 
+
+📘 [[Linux - Containers|LXC - Basic CLI Reference]]
+```
+# 🧱 LXC - Basic Commands
+
+## 📦 lxc-core commands (now part of `lxc` package)
+
+- `lxc-ls`  
+  ➤ List all existing containers.
+
+- `lxc-start -n <container>`  
+  ➤ Start a stopped container.
+
+- `lxc-stop -n <container>`  
+  ➤ Stop a running container.
+
+- `lxc-restart -n <container>`  
+  ➤ Restart a container (shortcut for stop + start).
+
+- `lxc-attach -n <container>`  
+  ➤ Attach to container’s shell (like `docker exec -it`).
+
+- `lxc-attach -n <container> -- /bin/bash`  
+  ➤ Attach with specific shell.
+
+- `lxc-attach -n <container> -f /path/to/share`  
+  ➤ Attach and share a specific directory or file (⛔ często błędna składnia — `-f` nie służy do bind-mounta! → zamiast tego użyj wpisu w `config` lub `lxc.mount.entry`).
+
+---
+
+## ⚙️ lxc-config
+
+- `lxc-config -n <container> -s storage`  
+  ➤ Manage container storage settings.
+
+- `lxc-config -n <container> -s network`  
+  ➤ Configure networking (bridge, macvlan, NAT).
+
+- `lxc-config -n <container> -s security`  
+  ➤ Adjust apparmor/seccomp profiles.
+
+> 🧠 *Uwaga:* `lxc-config` to **rzadziej używany wrapper**, większość konfiguracji obecnie odbywa się przez plik `config` w `/var/lib/lxc/<container>/config`.
+
+---
+
+## 📁 Gdzie trzyma dane LXC:
+- kontenery: `/var/lib/lxc/<name>/`
+- konfiguracja: `config` wewnątrz katalogu kontenera
+- logi: `/var/log/lxc/<name>.log`
+
+---
+
+## 🧠 Porównania (dla myślących abstrakcyjnie)
+- `lxc-start` ~ `systemctl start <unit>`  
+- `lxc-attach` ~ `ssh localhost` bez SSH  
+- `lxc-config` ~ `sysctl` dla kontenera  
+- `lxc` = docker prequel; działa na poziomie *systemowym*, nie *demonowym*
+
+
+```
 ---
 
 ## ⚙️ Ograniczenia zasobów (CPU, RAM)
