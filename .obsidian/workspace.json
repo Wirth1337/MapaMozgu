@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Knowledge/Computer/CyberSecurity/Linux/Backup.md",
+                "file": "02 - Knowledge/Computer/CyberSecurity/Linux/File Managment System.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Backup"
+              "title": "File Managment System"
             }
           }
         ]
@@ -98,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 355,
+    "collapsed": true
   },
   "right": {
     "id": "62568a0377e7edf7",
@@ -235,17 +236,19 @@
   },
   "active": "2893aa743403cc0a",
   "lastOpenFiles": [
-    "02 - Knowledge/Computer/CyberSecurity/Linux/Working With Web Services.md",
+    "01_Reference/Pasted image 20250729210341.png",
+    "02 - Knowledge/Computer/CyberSecurity/Linux/Network Services.md",
+    "02 - Knowledge/Computer/CyberSecurity/Linux/Linux Main.md",
+    "02 - Knowledge/Computer/CyberSecurity/Linux/File Managment System.md",
+    "02 - Knowledge/Computer/CyberSecurity/Linux/Task Scheduling.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Backup.md",
+    "02 - Knowledge/Computer/CyberSecurity/Linux/Working With Web Services.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Package Management.md",
     "01_Reference/Pasted image 20250729200602.png",
     "01_Reference/Pasted image 20250729200355.png",
-    "02 - Knowledge/Computer/CyberSecurity/Linux/Network Services.md",
     "01_Reference/Pasted image 20250729194252.png",
     "02 - Knowledge/Computer/CyberSecurity/Linux/File Content.md",
-    "02 - Knowledge/Computer/CyberSecurity/Linux/Linux Main.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/User Management.md",
-    "02 - Knowledge/Computer/CyberSecurity/Linux/Task Scheduling.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Permission Management.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Regular Expressions.md",
     "00 - Dashboard/HOME.md",
@@ -276,9 +279,7 @@
     "Markdown Cheatsheat.md",
     "99 - Meta/System/Practical Usage Guide.md",
     "99 - Meta/System/Organizational Methods in Obsidian.md",
-    "99 - Meta/System/General guide.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux",
-    "02 - Knowledge/Computer/Algorithm_complexity.md",
     "02 - Knowledge/Computer/CyberSecurity",
     "08_Scripts",
     "Bez nazwy.canvas"
