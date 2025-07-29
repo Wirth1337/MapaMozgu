@@ -39,22 +39,17 @@ Prawdopodobnie błąd portu, żeby go zmienić
 `sudo nano /etc/apache2/port.conf`
 Zmieniamy port z 80 na 8080
 ![[Pasted image 20250729141244.png]]
-Następnie `sudo systemctl restart apache2`
-sudo tail -n 30 /var/log/apache2/error.log
-sudo lsof -i :80
-sudo netstat -tulnp | grep :80
-sudo apt autoremove --purge -y
-sudo apt purge -y apache2* && sudo apt autoremove --purge -y && sudo rm -rf /etc/apache2 /var/www/html /var/log/apache2
+Następnie `sudo systemctl restart apache2`**
+Restartujemy Apache i idziemy do `http://localhost:8080` albo używamy curla.
+`curl -I [http://localhost:8080](http://localhost:8080/)`
+![[Pasted image 20250729194252.png]]
+Korzystanie z narzędzi CLI, takich jak `curl` i `wget`, pozwala komunikować się z serwerami WWW bez potrzeby użycia przeglądarki. To jak terminalowy odpowiednik przeglądarki – umożliwia pobieranie i analizę zawartości stron internetowych.
 
-sudo apt purge -y apache2* libapache2* && sudo apt autoremove --purge -y && sudo rm -rf /etc/apache2 /var/www /var/log/apache2
-sudo apache2ctl configtest
-sudo systemctl stop apache2
+Na przykład, prosty skrypt bashowy może pobrać stronę i wyciągnąć z niej wszystkie URL-e. Takie podejście przydaje się m.in. w web scrapingu, testach automatycznych i monitorowaniu zmian na stronach.
 
-sudo apache2ctl -t
-sudo systemctl status apache2
-sudo tail -n 30 /var/log/apache2/error.log
+--- 
 
-### Topic 2
+### 
 Main content here...
 
 ## Review Questions
