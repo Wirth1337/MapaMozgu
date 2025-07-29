@@ -4,9 +4,9 @@ aliases:
 tags:
   - type/study
   - context/studies
-  - theme/default
   - status/in-progress
   - review/pending
+  - theme/cybersecurity
 date: 2025-07-29
 last_updated: 2025-07-29
 ---
@@ -21,7 +21,7 @@ Wyobraź sobie scenariusz w którym przeprowadzasz pentest i napotykasz na hosta
 
 ## Treść
 ## SSH
-Secure Shell (SHH) jest protokołem sieciwym który zapewania zabezpieczoną transmijse danych i komend przez sieć.
+Secure Shell (SSH) jest protokołem sieciwym który zapewania zabezpieczoną transmijse danych i komend przez sieć.
 
 Najczęściej używanym serwerem SSH jest OpenSSH czyli open-sourcowa implementacja SSH
 
@@ -137,7 +137,7 @@ W efekcie zyskujemy dostęp do zdalnego katalogu `dev_scripts` tak, jakby był c
 ---
 
 ## Web Server 
-
+#apache
 Web Server jest oprogramowaniem która dostarcza dane, dokumenty, aplikacje i różne funkcje przez internet.
 
 Używa on **Hypertext Transfer Protocol (HTTP)** żeby transmitować dane do klientów takich jak przeglądarki internetowe i odbierać requesty.
@@ -152,12 +152,89 @@ Najczęściej używanymi webserverami na Linuxie są:
 
 Najbardziej powszechnym jest Apache z racji szerokiej kompatybilności z OS takimi jak Ubuntu i cała reszta Linuxowej śmietanki towarzyskiej (Arch BTW)
 
+Dla pentesterów web sever oferuje przeróżne możliwości.
+- faciliate file transfer 
+- pozwala testerom logować się i działać na targetowanym systemie przez porty HTTP i HTTPS 
 
-
+Dodatkowo Serwery WWW mogą być wykorzystywane do ataków phishingowych poprzez hostowanie fałszywych stron logowania w celu przechwytywania danych uwierzytelniających. Umożliwiają również testowanie i wykrywanie podatności w sieci.
 
 ---
-#
+## Instal Apache WebServer
 
+**Apache** to popularny serwer WWW oferujący funkcje bezpiecznego hostowania aplikacji oraz logowania ruchu w celu analizy ataków.  
+Aby go zainstalować, użyj polecenia:
+![[Pasted image 20250729130237.png]]
+`sudo apt install apache2 -y`
+
+Dla Apache2 żeby określić które foldery mogą być dostępne, możemy edytować plik `/etc/apache2/apache2.conf`. Ten plik zawiera ustawienia globalne. 
+
+---
+
+## Apache Configuration
+![[Pasted image 20250729130431.png]]
+Ten fragment konfiguracji określa, że domyślny folder `/var/www/html` jest dostępny, użytkownicy mogą korzystać z opcji `Indexes` i `FollowSymLinks`, zmiany w plikach w tym katalogu mogą być nadpisywane dzięki `AllowOverride All`, a `Require all granted` przyznaje dostęp wszystkim użytkownikom.  
+Przykładowo, jeśli chcemy przesłać pliki na system docelowy, możemy umieścić je w katalogu `/var/www/html` i pobrać na target za pomocą `wget`, `curl` lub innego narzędzia.
+
+Możemy również dostosować ustawienia dla konkretnego katalogu za pomocą pliku `.htaccess`, który tworzymy w danym folderze. Pozwala to na lokalną konfigurację, np. kontroli dostępu, bez edytowania głównego pliku konfiguracyjnego Apache.  
+Dodatkowo, możemy dodać moduły takie jak `mod_rewrite`, `mod_security` czy `mod_ssl`, które zwiększają bezpieczeństwo aplikacji webowej.
+
+---
+## Instal Python & Web Server
+
+**Python Web Server** to prosta i szybka alternatywa dla Apache, pozwalająca na udostępnienie folderu jednym poleceniem.  
+Aby z niego skorzystać, instalujemy `python3`, a następnie uruchamiamy:
+`python3 -m http.server`
+![[Pasted image 20250729130634.png]]
+
+Python Server będzie odpalony na porcie `TCP/8000` wraz z folderem
+
+Żeby hostować dodatkowy folder używamy 
+`python3 -m http.server --directory /home/cry0l1t3/target_files`
+![[Pasted image 20250729130819.png]]
+To uruchomi Python Web Server na porcie `TCP/8000` i dzięki temu mamy dostęp do folderu `/home/cry0l1t3/target_files` za pomocą przeglądarki.
+
+Możemy również transferować pliki do innego systemu przez wpisanie linka w przeglądarce i pobraniu plików. 
+
+Można też hostować Python Web Server na innym porcie niż standardowymy
+`python3 -m http.server 443`
+![[Pasted image 20250729131129.png]]
+To go zhostuje na porcie 443
+
+---
+
+## VPN
+
+Virtual Private Network (VPN) funkcjonuje jako bezpieczny niewidzialny tunel który łączy nas z inną siecią pozwalając nam na niezakłócony i zabezpieczony dostęp. Osiąga się to za pomocą zaszyfrowanego tunelu pomiędzy klientem i serverem, zapewniając że wszystkie dane transmitowane przez to połączenie pozostają zabezpieczone.
+
+Wśród popularnych VPN dla serwerów linuxowych:
+- OPENVPN
+- L2TP/IPsec
+- PPTP
+- SSTP
+- SoftEther
+
+OpenVPN jest najpopularniejszy bo jest open-source i jest kompatybilny z przeróżnymi distro Linuxa.
+- szyfrowanie
+- tunelowanie
+- kształtowanie ruchu
+- network routing
+- przystosowanie do dynamicznych środowisk sieciowych
+
+Dla pentesterów OpenVPN offeruje niesamowite możliwości.
+- bezpieczne połączenie do sieci wewnętrznych
+- sprawdzanie zabezpieczeń
+- identyfikacja i zaadresowanie potencjalnych zagrożeń
+
+---
+
+### Install OpenVPN
+
+Komenda: `sudo apt install openvpn -y`
+![[Pasted image 20250729132116.png]]
+
+OpenVPN można konfigurować poprzez edycje pliku `/etc/openvpn/server.conf`
+Żeby się podłączyć do serwera OpenVPN możemy użyć pliku `.ovpn` który otrzymaliśmy od serwera i zapisac go na naszym systemie za pomocą komendy: `sudo openvpn --config internal.ovpn`
+![[Pasted image 20250729132329.png]]
 ## Review Questions
 - Question 1?
 - Question 2?

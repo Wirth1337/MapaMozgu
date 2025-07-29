@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Knowledge/Computer/CyberSecurity/Linux/Network Services.md",
+                "file": "02 - Knowledge/Computer/CyberSecurity/Linux/Working With Web Services.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Network Services"
+              "title": "Working With Web Services"
             }
           }
         ]
@@ -218,6 +218,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:Otwórz okno szybkiego wyboru": false,
       "canvas:Stwórz nową tablicę": false,
       "daily-notes:Otwórz codzienną notatkę": false,
@@ -229,29 +230,29 @@
       "homepage:Open homepage": false,
       "obsidian-importer:Open Importer": false,
       "obsidian-spaced-repetition:Przeglądaj fiszki": false,
-      "graph:Otwórz graf": false,
-      "obsidian-git:Open Git source control": false
+      "graph:Otwórz graf": false
     }
   },
-  "active": "28d9603ef360a5ee",
+  "active": "ce99a60d5b2a8364",
   "lastOpenFiles": [
+    "02 - Knowledge/Computer/CyberSecurity/Linux/Network Services.md",
+    "02 - Knowledge/Computer/CyberSecurity/Linux/Working With Web Services.md",
+    "02 - Knowledge/Computer/CyberSecurity/Linux/Linux Main.md",
+    "01_Reference/Pasted image 20250729132329.png",
+    "01_Reference/Pasted image 20250729132116.png",
+    "01_Reference/Pasted image 20250729131129.png",
+    "01_Reference/Pasted image 20250729130819.png",
+    "01_Reference/Pasted image 20250729130634.png",
+    "01_Reference/Pasted image 20250729130431.png",
+    "01_Reference/Pasted image 20250729130237.png",
     "01_Reference/linux-commands-cheat-sheet.pdf",
     "01_Reference/Pasted image 20250727181228.png",
     "01_Reference/Pasted image 20250727181211.png",
     "01_Reference/Pasted image 20250727181113.png",
-    "02 - Knowledge/Computer/CyberSecurity/Linux/Network Services.md",
-    "01_Reference/Pasted image 20250729122134.png",
-    "01_Reference/Pasted image 20250729122019.png",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Service And Process Managment.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Permission Management.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Package Management.md",
     "00 - Dashboard/HOME.md",
-    "01_Reference/Pasted image 20250729111157.png",
-    "01_Reference/Pasted image 20250729111107.png",
-    "01_Reference/Pasted image 20250729105652.png",
-    "01_Reference/Pasted image 20250729104507.png",
-    "01_Reference/Pasted image 20250729104204.png",
-    "02 - Knowledge/Computer/CyberSecurity/Linux/Linux Main.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Task Scheduling.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Regular Expressions.md",
     "04 - References/Courses/HTB/cURL.md",
