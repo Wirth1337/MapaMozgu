@@ -140,7 +140,17 @@ W efekcie zyskujemy dostęp do zdalnego katalogu `dev_scripts` tak, jakby był c
 
 Web Server jest oprogramowaniem która dostarcza dane, dokumenty, aplikacje i różne funkcje przez internet.
 
+Używa on **Hypertext Transfer Protocol (HTTP)** żeby transmitować dane do klientów takich jak przeglądarki internetowe i odbierać requesty.
 
+Następnie owe dane są renderowane jako **Hypertext Markup Language (HTML)** w środku przeglądarki klienta umożliwiając tworzenie dynamicznych stron internetowych które odpowiadają według requestów użytkownika.
+
+Najczęściej używanymi webserverami na Linuxie są:
+- Apache
+- Nginx
+- Lighttpd
+- Caddy
+
+Najbardziej powszechnym jest Apache z racji szerokiej kompatybilności z OS takimi jak Ubuntu i cała reszta Linuxowej śmietanki towarzyskiej (Arch BTW)
 
 
 
