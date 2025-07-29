@@ -110,7 +110,38 @@ Plik `/etc/exports` może wyglądać tak:
 `
 Oznacza to, że cały subnet ma dostęp do `/srv/nfs/data` z prawem zapisu, z synchronizacją danych i bez sprawdzania poddrzewa katalogów.
 
-sdas
+### Create NFS Share
+![[Pasted image 20250729122019.png]]
+
+Jeżeli utworzyliśmy NFS share i chcemy żeby działał z docelowym systemem musimy z zmountować.
+
+Robimy to następującą komendą
+![[Pasted image 20250729122134.png]]
+```
+mkdir ~/target_nfs 
+mount 10.129.12.17:/home/john/dev_scripts ~/target_nfs
+tree ~/target_nfs
+```
+
+Powyższe polecenia:
+
+1. Tworzą lokalny punkt montowania `~/target_nfs`,
+    
+2. Montują zdalny udział NFS (`/home/john/dev_scripts`) z hosta `10.129.12.17` do tego punktu,
+    
+3. Pozwalają na eksplorację jego zawartości lokalnie przy pomocy narzędzia `tree`.
+    
+
+W efekcie zyskujemy dostęp do zdalnego katalogu `dev_scripts` tak, jakby był częścią naszego lokalnego systemu plików — możemy go przeglądać, edytować i wykonywać pliki, jeśli pozwalają na to uprawnienia.
+
+---
+
+## Web Server 
+
+
+
+
+
 
 ---
 #
