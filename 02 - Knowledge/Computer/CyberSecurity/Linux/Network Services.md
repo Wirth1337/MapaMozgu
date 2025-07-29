@@ -138,6 +138,8 @@ W efekcie zyskujemy dostęp do zdalnego katalogu `dev_scripts` tak, jakby był c
 
 ## Web Server 
 
+Web Server jest oprogramowaniem która dostarcza dane, dokumenty, aplikacje i różne funkcje przez internet.
+
 
 
 
