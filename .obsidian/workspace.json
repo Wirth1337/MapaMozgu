@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7f3a459e4f9a9f23",
+        "id": "dd435cbd1da90c5d",
         "type": "tabs",
         "children": [
           {
-            "id": "2893aa743403cc0a",
+            "id": "f6db37c3eb4f6f38",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Knowledge/Computer/CyberSecurity/Linux/File Managment System.md",
+                "file": "02 - Knowledge/Computer/CyberSecurity/Linux/Containerization.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "File Managment System"
+              "title": "Containerization"
             }
           }
         ]
@@ -234,12 +234,14 @@
       "graph:Otwórz graf": false
     }
   },
-  "active": "2893aa743403cc0a",
+  "active": "f6db37c3eb4f6f38",
   "lastOpenFiles": [
+    "02 - Knowledge/Computer/CyberSecurity/Linux/Containerization.md",
+    "Bez nazwy.canvas",
+    "02 - Knowledge/Computer/CyberSecurity/Linux/File Managment System.md",
     "01_Reference/Pasted image 20250729210341.png",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Network Services.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Linux Main.md",
-    "02 - Knowledge/Computer/CyberSecurity/Linux/File Managment System.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Task Scheduling.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Backup.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Working With Web Services.md",
@@ -258,7 +260,6 @@
     "01_Reference/Pasted image 20250729135634.png",
     "01_Reference/Pasted image 20250729132329.png",
     "01_Reference/Pasted image 20250729132116.png",
-    "01_Reference/Pasted image 20250729131129.png",
     "01_Reference/linux-commands-cheat-sheet.pdf",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Service And Process Managment.md",
     "04 - References/Courses/HTB/cURL.md",
@@ -281,7 +282,6 @@
     "99 - Meta/System/Organizational Methods in Obsidian.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux",
     "02 - Knowledge/Computer/CyberSecurity",
-    "08_Scripts",
-    "Bez nazwy.canvas"
+    "08_Scripts"
   ]
 }
