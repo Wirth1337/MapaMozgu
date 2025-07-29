@@ -46,6 +46,14 @@ sudo netstat -tulnp | grep :80
 sudo apt autoremove --purge -y
 sudo apt purge -y apache2* && sudo apt autoremove --purge -y && sudo rm -rf /etc/apache2 /var/www/html /var/log/apache2
 
+sudo apt purge -y apache2* libapache2* && sudo apt autoremove --purge -y && sudo rm -rf /etc/apache2 /var/www /var/log/apache2
+sudo apache2ctl configtest
+sudo systemctl stop apache2
+
+sudo apache2ctl -t
+sudo systemctl status apache2
+sudo tail -n 30 /var/log/apache2/error.log
+
 ### Topic 2
 Main content here...
 
