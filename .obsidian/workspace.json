@@ -98,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "62568a0377e7edf7",
@@ -236,8 +235,11 @@
   },
   "active": "2893aa743403cc0a",
   "lastOpenFiles": [
-    "01_Reference/Pasted image 20250729194252.png",
+    "01_Reference/Pasted image 20250729200602.png",
+    "01_Reference/Pasted image 20250729200355.png",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Network Services.md",
+    "02 - Knowledge/Computer/CyberSecurity/Linux/Working With Web Services.md",
+    "01_Reference/Pasted image 20250729194252.png",
     "02 - Knowledge/Computer/CyberSecurity/Linux/File Content.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Linux Main.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Package Management.md",
@@ -245,7 +247,6 @@
     "02 - Knowledge/Computer/CyberSecurity/Linux/Task Scheduling.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Permission Management.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Regular Expressions.md",
-    "02 - Knowledge/Computer/CyberSecurity/Linux/Working With Web Services.md",
     "00 - Dashboard/HOME.md",
     "01_Reference/Pasted image 20250729141244.png",
     "01_Reference/apache-default.webp",
@@ -255,8 +256,6 @@
     "01_Reference/Pasted image 20250729132116.png",
     "01_Reference/Pasted image 20250729131129.png",
     "01_Reference/Pasted image 20250729130819.png",
-    "01_Reference/Pasted image 20250729130634.png",
-    "01_Reference/Pasted image 20250729130431.png",
     "01_Reference/linux-commands-cheat-sheet.pdf",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Service And Process Managment.md",
     "04 - References/Courses/HTB/cURL.md",

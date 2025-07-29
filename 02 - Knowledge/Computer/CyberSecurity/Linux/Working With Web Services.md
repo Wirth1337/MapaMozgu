@@ -49,8 +49,47 @@ Na przykład, prosty skrypt bashowy może pobrać stronę i wyciągnąć z niej 
 
 --- 
 
-### 
-Main content here...
+## cURL
+#cURL
+cURL to taki dron który dowozi i odbiera paczki (dane)
+Protokoły to różne wysokości na które może się wznieść
+
+`curl` to uniwersalne narzędzie CLI do **transferu danych** przez protokoły HTTP, HTTPS, FTP, SFTP, FTPS czy SCP. Dzięki niemu możesz:
+
+- **Pobrać plik**: `curl -O https://example.com/file.zip`
+- **Wysłać żądanie POST** z danymi JSON: `curl -X POST -H "Content-Type: application/json" -d '{"key":"value"}' https://api.example.com/endpoint`
+- **Zobaczyć nagłówki** odpowiedzi: `curl -I https://example.com`
+![[Pasted image 20250729200355.png]]
+
+---
+## Wget
+
+To samo co cURl ale zapisuje do pliku jak pająk z notatnikiem który mi przynosi notatkę.
+
+![[Pasted image 20250729200602.png]]
+
+---
+## Python 3
+
+Wielka Królowa pająków, spawnuje chmarę pajączków (skryptów) i sam mogę zdecydować co robią.
+- Każdy to moduł: `requests` to dron‑kurier webowy, `socket` to surowy strażnik sieci, `os` to zaklinacz systemu plików.
+- 🤖 **Programuje ich zachowanie**  
+	Piszesz skrypt, definiujesz trasę, metody zbierania danych, filtry, reguły i reakcje (np. gdy status = 500, wyślij alert emailem).
+## Przykład „pajęczego szkieletu” w Pythonie
+
+```import requests, time
+
+def spider_flight(url):
+    r = requests.get(url)
+    print(f"[{time.strftime('%H:%M:%S')}] {url} → {r.status_code}")
+
+if __name__ == "__main__":
+    targets = ["https://example.com", "https://api.service/health"]
+    for t in targets:
+        spider_flight(t)
+        time.sleep(1)
+```
+
 
 ## Review Questions
 - Question 1?
