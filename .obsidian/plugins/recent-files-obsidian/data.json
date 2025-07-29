@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "HOME",
+      "path": "00 - Dashboard/HOME.md"
+    },
+    {
       "basename": "Working With Web Services",
       "path": "02 - Knowledge/Computer/CyberSecurity/Linux/Working With Web Services.md"
     },
@@ -39,10 +43,6 @@
     {
       "basename": "Package Management",
       "path": "02 - Knowledge/Computer/CyberSecurity/Linux/Package Management.md"
-    },
-    {
-      "basename": "HOME",
-      "path": "00 - Dashboard/HOME.md"
     },
     {
       "basename": "Task Scheduling",

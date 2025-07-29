@@ -177,6 +177,7 @@ tunelu
 transmitowane
 tunelowanie
 towanie
+tulnp
 date
 dkuj
 dashboard
@@ -889,6 +890,9 @@ serverem
 szyfrowanie
 sieciowych
 silnikiem
+server
+start
+stop
 Remember
 Recon
 REMEMBER
@@ -1347,6 +1351,8 @@ cRQ
 cD
 cych
 cony
+ctl
+configtest
 CyberSec
 CTF
 CheatSheet
@@ -2393,6 +2399,7 @@ Zx
 Zen
 ZWQ
 ZH
+Zmieniamy
 informacje
 is
 in
@@ -2912,6 +2919,8 @@ przystosowanie
 potencjalnych
 pokoje
 przystosowany
+portu
+purge
 na
 notatki
 notes
@@ -3071,6 +3080,7 @@ niezak
 najpopularniejszy
 nymi
 niesamowite
+netstat
 zlinkuj
 zane
 zmieni
@@ -3506,6 +3516,8 @@ Pozwalaj
 Protocol
 Private
 PPTP
+Podczas
+Prawdopodobnie
 Jak
 John
 Jakbym
@@ -3775,6 +3787,8 @@ webowej
 wraz
 wpisanie
 wewn
+wiczenia
+wyskakuje
 gdy
 goal
 growing
@@ -4001,6 +4015,8 @@ lokalnie
 lokaln
 linka
 linuxowych
+lsof
+libapache
 bash
 busy
 by
@@ -4279,6 +4295,7 @@ acG
 aplikacje
 atak
 apache
+autoremove
 Heading
 Highlights
 Health
@@ -4549,6 +4566,7 @@ IS
 Instal
 IPsec
 Install
+Instalujemy
 of
 other
 own
@@ -5425,6 +5443,7 @@ vSOy
 vtnGPX
 vtNb
 vtfL
+virtualce
 use
 updated
 using
