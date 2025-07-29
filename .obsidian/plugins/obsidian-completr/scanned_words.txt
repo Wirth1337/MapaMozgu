@@ -180,6 +180,7 @@ towanie
 tulnp
 terminalowy
 testach
+tras
 date
 dkuj
 dashboard
@@ -363,6 +364,10 @@ darce
 dark
 dom
 dodawa
+dron
+dowozi
+definiujesz
+desktopie
 YYYY
 You
 Yj
@@ -655,6 +660,9 @@ Dlf
 DN
 Dw
 Dg
+Duplicity
+Deja
+Dup
 status
 surowe
 sekcje
@@ -897,6 +905,18 @@ start
 stop
 scrapingu
 stronach
+spawnuje
+surowy
+stra
+szkieletu
+specify
+szybkie
+snapshoty
+szyfrowane
+skarb
+sejf
+szybki
+szyfruj
 Remember
 Recon
 REMEMBER
@@ -1013,6 +1033,8 @@ RM
 Rq
 Robimy
 Restartujemy
+Rsync
+Rozszerza
 Organize
 ORGANIZE
 Ongoing
@@ -1106,6 +1128,7 @@ OV
 Osi
 OPENVPN
 OpenVPN
+Obs
 Question
 QUESTION
 Quotes
@@ -1359,6 +1382,9 @@ cony
 ctl
 configtest
 curla
+cURl
+chmar
+czk
 CyberSec
 CTF
 CheatSheet
@@ -1593,6 +1619,10 @@ Wwv
 Wo
 WWW
 WebServer
+Wys
+Wget
+Wielka
+Wskaz
 Exploits
 EXERCISES
 Efficiency
@@ -1776,6 +1806,7 @@ Nm
 Nq
 Nginx
 Najbardziej
+Narz
 Forensics
 Fragmenty
 Focus
@@ -1868,6 +1899,8 @@ FGb
 Fl
 FCrt
 FYI
+FTPS
+Find
 General
 Games
 Guide
@@ -1953,6 +1986,8 @@ GUL
 Gw
 Gi
 GX
+GPG
+Graficzny
 Lab
 Linki
 Life
@@ -2192,6 +2227,8 @@ Server
 Serwery
 SSTP
 SoftEther
+SFTP
+SCP
 Type
 Tagowanie
 Table
@@ -2304,6 +2341,7 @@ Transfer
 Ten
 Tak
 Takie
+Tworzy
 Zbieraj
 Zastosowanie
 Zettelkasten
@@ -2408,6 +2446,9 @@ Zen
 ZWQ
 ZH
 Zmieniamy
+Zobaczy
+Zapisuje
+Zawsze
 informacje
 is
 in
@@ -2540,6 +2581,7 @@ innym
 inn
 identyfikacja
 idziemy
+inside
 Uporz
 Upcoming
 University
@@ -2935,6 +2977,10 @@ pobieranie
 prosty
 podej
 przydaje
+przynosi
+przyrostowe
+prostych
+przyciskiem
 na
 notatki
 notes
@@ -3095,6 +3141,11 @@ najpopularniejszy
 nymi
 niesamowite
 netstat
+niemu
+nag
+notatnikiem
+notatk
+npm
 zlinkuj
 zane
 zmieni
@@ -3280,6 +3331,14 @@ zabezpiecze
 zaadresowanie
 zagro
 zapisac
+zdecydowa
+zaklinacz
+zachowanie
+zbierania
+zmienione
+zdalnie
+zdalne
+zamkiem
 Kluczowe
 Key
 Knowledge
@@ -3365,6 +3424,8 @@ KM
 Kl
 Kluczowym
 Korzystanie
+Koncepcje
+Klucze
 Powi
 Podkategorie
 Pytania
@@ -3533,6 +3594,12 @@ Private
 PPTP
 Podczas
 Prawdopodobnie
+Protoko
+Pobra
+POST
+Programuje
+Piszesz
+Pythonie
 Jak
 John
 Jakbym
@@ -3606,6 +3673,7 @@ Ju
 JaY
 JZ
 Jl
+JSON
 wykorzysta
 warunki
 wiczeniach
@@ -3805,6 +3873,12 @@ wewn
 wiczenia
 wyskakuje
 wyci
+wysoko
+wznie
+wki
+webowy
+way
+wygodny
 gdy
 goal
 growing
@@ -4034,6 +4108,9 @@ linka
 linuxowych
 lsof
 libapache
+lowa
+lij
+lokalizacje
 bash
 busy
 by
@@ -4149,6 +4226,9 @@ bezpiecznego
 bezpieczny
 bo
 bashowy
+backapujesz
+backupu
+backupy
 ad
 an
 assumes
@@ -4316,6 +4396,8 @@ apache
 autoremove
 analiz
 automatycznych
+alert
+automatyczne
 Heading
 Highlights
 Health
@@ -4587,6 +4669,7 @@ Instal
 IPsec
 Install
 Instalujemy
+Idealne
 of
 other
 own
@@ -4739,6 +4822,7 @@ odpalony
 offeruje
 otrzymali
 odpowiednik
+odpowiedzi
 happens
 here
 hierarchies
@@ -4826,6 +4910,7 @@ hi
 hostowanie
 hostowania
 hostowa
+histori
 you
 your
 ytkownika
@@ -5059,6 +5144,9 @@ request
 racji
 ruchu
 rodowisk
+regu
+reakcje
+rozjeba
 making
 my
 main
@@ -5193,6 +5281,8 @@ mqkb
 ms
 mietanki
 monitorowaniu
+metody
+mia
 just
 jak
 jako
@@ -5392,6 +5482,7 @@ eksploracj
 edytowania
 edycje
 elementem
+emailem
 vault
 ve
 visualize
@@ -5600,6 +5691,8 @@ uwierzytelniaj
 umie
 uruchamiamy
 uruchomi
+uniwersalne
+uguje
 Areas
 Active
 Algorithm
@@ -5709,6 +5802,7 @@ Apache
 Arch
 Aby
 Albo
+Amazon
 Vault
 Visual
 Variation
@@ -5781,6 +5875,7 @@ Vn
 Vlo
 VPN
 Virtual
+VeraCrypt
 focus
 folder
 folders
@@ -5880,6 +5975,8 @@ folderze
 folderem
 funkcjonuje
 fundamentami
+filtry
+filozofii
 knowledge
 key
 keeping
@@ -6012,6 +6109,10 @@ kompatybilny
 kszta
 komunikacja
 komunikowa
+kurier
+kszej
+kopie
+kopiuje
 quick
 questions
 queries

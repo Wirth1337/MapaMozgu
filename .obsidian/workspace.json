@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Knowledge/Computer/CyberSecurity/Linux/Working With Web Services.md",
+                "file": "02 - Knowledge/Computer/CyberSecurity/Linux/Backup.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Working With Web Services"
+              "title": "Backup"
             }
           }
         ]
@@ -193,7 +193,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       },
       {
         "id": "3d559545f0b02229",
@@ -235,14 +235,15 @@
   },
   "active": "2893aa743403cc0a",
   "lastOpenFiles": [
+    "02 - Knowledge/Computer/CyberSecurity/Linux/Working With Web Services.md",
+    "02 - Knowledge/Computer/CyberSecurity/Linux/Backup.md",
+    "02 - Knowledge/Computer/CyberSecurity/Linux/Package Management.md",
     "01_Reference/Pasted image 20250729200602.png",
     "01_Reference/Pasted image 20250729200355.png",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Network Services.md",
-    "02 - Knowledge/Computer/CyberSecurity/Linux/Working With Web Services.md",
     "01_Reference/Pasted image 20250729194252.png",
     "02 - Knowledge/Computer/CyberSecurity/Linux/File Content.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Linux Main.md",
-    "02 - Knowledge/Computer/CyberSecurity/Linux/Package Management.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/User Management.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Task Scheduling.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Permission Management.md",
@@ -255,7 +256,6 @@
     "01_Reference/Pasted image 20250729132329.png",
     "01_Reference/Pasted image 20250729132116.png",
     "01_Reference/Pasted image 20250729131129.png",
-    "01_Reference/Pasted image 20250729130819.png",
     "01_Reference/linux-commands-cheat-sheet.pdf",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Service And Process Managment.md",
     "04 - References/Courses/HTB/cURL.md",
