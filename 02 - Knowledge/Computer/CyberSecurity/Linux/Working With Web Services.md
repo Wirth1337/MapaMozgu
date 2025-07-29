@@ -92,7 +92,9 @@ if __name__ == "__main__":
 
 
 ## Review Questions
-- Question 1?
+- Find a way to start a simple HTTP server inside Pwnbox or your local VM using "npm". Submit the command that starts the web server on port 8080 (use the short argument to specify the port number).
+	- `npm install http-server --global `
+	- `http-server -p 8080`
 - Question 2?
 
 ## Summary
