@@ -1,0 +1,14 @@
+{
+  "livePreview": true,
+  "spellcheck": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "00_Inbox",
+  "attachmentFolderPath": "01_Reference",
+  "userIgnoreFilters": [
+    "06_Templates/"
+  ],
+  "spellcheckDictionary": [
+    "regex",
+    "patterny"
+  ]
+}

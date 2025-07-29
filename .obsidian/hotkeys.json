@@ -1,0 +1,19 @@
+{
+  "templater-obsidian:create-06_Templates/Super Note.md": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Q"
+    }
+  ],
+  "quickadd:runQuickAdd": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": " "
+    }
+  ],
+  "obsidian-completr:completr-open-suggestion-popup": []
+}

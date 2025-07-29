@@ -1,0 +1,11 @@
+{
+  "cssTheme": "Encore",
+  "enabledCssSnippets": [
+    "Colored Sidebar Items",
+    "CyanVoxel's General Tweaks"
+  ],
+  "accentColor": "#551179",
+  "textFontFamily": "Consolas",
+  "interfaceFontFamily": "Consolas",
+  "monospaceFontFamily": "Consolas"
+}

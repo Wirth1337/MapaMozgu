@@ -1,0 +1,274 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "962fb58bac9c50c5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a1d57020b8adb0cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 - Dashboard/HOME.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "HOME"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "504dc2811a29fbe7",
+    "type": "split",
+    "children": [
+      {
+        "id": "85d70ce88316b252",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ce99a60d5b2a8364",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Przeglądarka plików"
+            }
+          },
+          {
+            "id": "f000902d22afaf92",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Przykłady",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Szukaj"
+            }
+          },
+          {
+            "id": "c0bf0272510b242f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Ulubione"
+            }
+          },
+          {
+            "id": "507dc3ce5edef863",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "62568a0377e7edf7",
+    "type": "split",
+    "children": [
+      {
+        "id": "77d5dbc16c5ade8d",
+        "type": "tabs",
+        "dimension": 65.98837209302326,
+        "children": [
+          {
+            "id": "93e45b047f7a9dfa",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Markdown Cheatsheat.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Linki zwrotne do Markdown Cheatsheat"
+            }
+          },
+          {
+            "id": "af2b71e1d1ca528f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tagi"
+            }
+          },
+          {
+            "id": "110d8c871cab0ae6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Markdown Cheatsheat.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Łącza wychodzące z Markdown Cheatsheat"
+            }
+          },
+          {
+            "id": "9162e94a60fadb6f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Markdown Cheatsheat.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Konspekt Markdown Cheatsheat"
+            }
+          },
+          {
+            "id": "2489a7e0bce6a889",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Kolejka przeglądu notatek"
+            }
+          }
+        ],
+        "currentTab": 4
+      },
+      {
+        "id": "3d559545f0b02229",
+        "type": "tabs",
+        "dimension": 34.01162790697675,
+        "children": [
+          {
+            "id": "525e17f3fd2e1378",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Otwórz okno szybkiego wyboru": false,
+      "canvas:Stwórz nową tablicę": false,
+      "daily-notes:Otwórz codzienną notatkę": false,
+      "templates:Wstaw szablon": false,
+      "command-palette:Otwórz listę poleceń": false,
+      "templater-obsidian:Templater": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "homepage:Open homepage": false,
+      "obsidian-importer:Open Importer": false,
+      "obsidian-spaced-repetition:Przeglądaj fiszki": false,
+      "graph:Otwórz graf": false
+    }
+  },
+  "active": "a1d57020b8adb0cd",
+  "lastOpenFiles": [
+    "00 - Dashboard/HOME.md",
+    "02 - Knowledge/Computer/CyberSecurity/Linux/Network Services.md",
+    "01_Reference/Pasted image 20250729111157.png",
+    "01_Reference/Pasted image 20250729111107.png",
+    "01_Reference/Pasted image 20250729105652.png",
+    "01_Reference/Pasted image 20250729104507.png",
+    "01_Reference/Pasted image 20250729104204.png",
+    "01_Reference/Pasted image 20250729104120.png",
+    "02 - Knowledge/Computer/CyberSecurity/Linux/Linux Main.md",
+    "02 - Knowledge/Computer/CyberSecurity/Linux/Package Management.md",
+    "02 - Knowledge/Computer/CyberSecurity/Linux/Task Scheduling.md",
+    "01_Reference/Pasted image 20250728195214.png",
+    "02 - Knowledge/Computer/CyberSecurity/Linux/Service And Process Managment.md",
+    "01_Reference/Pasted image 20250728194017.png",
+    "01_Reference/Pasted image 20250728192332.png",
+    "01_Reference/Pasted image 20250728191925.png",
+    "02 - Knowledge/Computer/CyberSecurity/Linux/Regular Expressions.md",
+    "04 - References/Courses/HTB/cURL.md",
+    "02 - Knowledge/Computer/CyberSecurity/Linux/User Management.md",
+    "02 - Knowledge/Computer/CyberSecurity/Linux/Permission Management.md",
+    "02 - Knowledge/Computer/CyberSecurity/Linux/File Content.md",
+    "02 - Knowledge/Computer/CyberSecurity/Linux/Deskryptory.md",
+    "02 - Knowledge/Computer/CyberSecurity/Linux/VIM.md",
+    "04 - References/CheatSheet",
+    "99 - Meta/System/Guide to Tags and Links - Note Organization in Obsidian.md",
+    "04 - References/Courses/HTB/Bez nazwy.md",
+    "04 - References/Courses/HTB",
+    "02 - Knowledge/Computer/CyberSecurity/Linux/LinuxCheatSheet.md",
+    "04 - References/Books/Cybersecurity/Linux/Bez nazwy.md",
+    "link.md",
+    "01_Reference/linux-commands-cheat-sheet.pdf",
+    "04 - References/Books/Cybersecurity/Linux",
+    "04 - References/Books/Cybersecurity",
+    "Excalidraw/Drawing 2025-07-27 18.08.10.excalidraw.md",
+    "01_Reference",
+    "Excalidraw",
+    "Markdown Cheatsheat.md",
+    "99 - Meta/System/Practical Usage Guide.md",
+    "99 - Meta/System/Organizational Methods in Obsidian.md",
+    "99 - Meta/System/General guide.md",
+    "02 - Knowledge/Computer/CyberSecurity/Linux",
+    "02 - Knowledge/Computer/Algorithm_complexity.md",
+    "02 - Knowledge/Computer/CyberSecurity",
+    "02_Notes/Linux/Linux Main.md",
+    "08_Scripts",
+    "Bez nazwy.canvas"
+  ]
+}

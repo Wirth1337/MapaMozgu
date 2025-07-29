@@ -1,0 +1,52 @@
+{
+  "palette": {
+    "seed": 0,
+    "selected": "adaptive-soft",
+    "custom": "e12729-f37324-f8cc1b-72b043-007f4e"
+  },
+  "mixColors": true,
+  "transition": true,
+  "accessibility": {
+    "highTextContrast": false
+  },
+  "knownTags": {
+    "Heading": 1,
+    "type": 2,
+    "type/study": 1,
+    "context": 3,
+    "context/academic": 1,
+    "theme": 4,
+    "theme/algorithms": 1,
+    "status": 5,
+    "status/in-progress": 1,
+    "context/studies": 2,
+    "theme/organization": 2,
+    "theme/productivity": 3,
+    "status/completed": 2,
+    "type/daily": 2,
+    "context/personal": 3,
+    "type/idea": 3,
+    "context/default": 4,
+    "theme/default": 4,
+    "status/idea": 3,
+    "type/project": 4,
+    "priority": 6,
+    "priority/high": 1,
+    "status/planning": 4,
+    "type/reflection": 5,
+    "review": 7,
+    "review/pending": 1,
+    "type/review": 6,
+    "type/task": 7,
+    "theme/cybersecurity": 5,
+    "theme/os": 6,
+    "excalidraw": 8,
+    "Komendy": 9,
+    "komendylinux": 10,
+    "linux": 11,
+    "znaki": 12,
+    "Przykłady": 13,
+    "networking": 14
+  },
+  "_version": 3
+}
