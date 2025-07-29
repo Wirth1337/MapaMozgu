@@ -14,7 +14,7 @@ last_updated: 2025-07-29
 #  [[Linux Main|Study - {{Linux}}]] 
 
 ## Ogólnie
-What is the goal of this study?
+robo
 
 ## Content
 ### Topic 1
