@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "dd435cbd1da90c5d",
+        "id": "479f9da2975e77cf",
         "type": "tabs",
         "children": [
           {
-            "id": "f6db37c3eb4f6f38",
+            "id": "c1e86a9c7aafecf8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Knowledge/Computer/CyberSecurity/Linux/Zapory sieciowe.md",
+                "file": "00 - Dashboard/HOME.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Zapory sieciowe"
+              "title": "HOME"
             }
           }
         ]
@@ -193,7 +193,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "3d559545f0b02229",
@@ -233,11 +233,11 @@
       "graph:Otwórz graf": false
     }
   },
-  "active": "f6db37c3eb4f6f38",
+  "active": "c1e86a9c7aafecf8",
   "lastOpenFiles": [
+    "02 - Knowledge/Computer/CyberSecurity/Linux/Zapory sieciowe.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Zabezpieczenia Linux.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Logi.md",
-    "02 - Knowledge/Computer/CyberSecurity/Linux/Zapory sieciowe.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Protokoły zdalnego pulpitu.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Konfiguracja Sieci.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/File Managment System.md",

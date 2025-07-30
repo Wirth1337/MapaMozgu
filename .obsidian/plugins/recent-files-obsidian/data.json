@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "HOME",
+      "path": "00 - Dashboard/HOME.md"
+    },
+    {
       "basename": "Zapory sieciowe",
       "path": "02 - Knowledge/Computer/CyberSecurity/Linux/Zapory sieciowe.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "Regular Expressions",
       "path": "02 - Knowledge/Computer/CyberSecurity/Linux/Regular Expressions.md"
-    },
-    {
-      "basename": "HOME",
-      "path": "00 - Dashboard/HOME.md"
     },
     {
       "basename": "linux-commands-cheat-sheet",
