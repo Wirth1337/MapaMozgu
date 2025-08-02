@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "File Content",
+      "path": "02 - Knowledge/Computer/CyberSecurity/Linux/File Content.md"
+    },
+    {
       "basename": "HOME",
       "path": "00 - Dashboard/HOME.md"
     },
@@ -63,10 +67,6 @@
     {
       "basename": "Package Management",
       "path": "02 - Knowledge/Computer/CyberSecurity/Linux/Package Management.md"
-    },
-    {
-      "basename": "File Content",
-      "path": "02 - Knowledge/Computer/CyberSecurity/Linux/File Content.md"
     },
     {
       "basename": "User Management",

@@ -17,7 +17,7 @@ last_updated: 2025-07-27
 ## Objective
 Zrozumieć jak przeglądać pliki z poziomu basha
 
-Plik to tylko strumień bajtów. Jednak mogę z nim pracować ja z tekstem. Wszystko jest plikiem.
+Plik to tylko strumień bajtów. Jednak mogę z nim pracować ja z tekstem. Wszystko jest plikiem.  
 Gdy czytam zawartość pliku:
 - mogę ją wyświetlić (`cat`, `less`, `head`)
 - przetwarzać (`grep`, `awk`, `cut`, `sed`, `tr`)

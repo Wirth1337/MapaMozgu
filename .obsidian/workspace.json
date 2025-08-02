@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 - Dashboard/HOME.md",
+                "file": "02 - Knowledge/Computer/CyberSecurity/Linux/File Content.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "HOME"
+              "title": "File Content"
             }
           }
         ]
@@ -98,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 355
+    "width": 355,
+    "collapsed": true
   },
   "right": {
     "id": "62568a0377e7edf7",
@@ -214,7 +215,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -230,10 +232,11 @@
       "omnisearch:Omnisearch": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "homepage:Open homepage": false,
-      "obsidian-importer:Open Importer": false
+      "obsidian-importer:Open Importer": false,
+      "obsidian-kanban:Create new board": false
     }
   },
-  "active": "29e3d9ac8fd90058",
+  "active": "814d9336dead3d95",
   "lastOpenFiles": [
     "00 - Dashboard/HOME.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Zapory sieciowe.md",

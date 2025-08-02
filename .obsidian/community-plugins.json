@@ -7,7 +7,6 @@
   "file-explorer-note-count",
   "code-styler",
   "file-explorer-plus",
-  "ninja-cursor",
   "omnisearch",
   "cmdr",
   "obsidian-minimal-settings",
@@ -24,5 +23,6 @@
   "nldates-obsidian",
   "url-into-selection",
   "obsidian-spaced-repetition",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-kanban"
 ]
