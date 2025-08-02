@@ -1742,6 +1742,7 @@ Wydajno
 Wrappers
 Wykluczanie
 Wbudowane
+Wszedzie
 Exploits
 EXERCISES
 Efficiency
@@ -2132,6 +2133,7 @@ GPG
 Graficzny
 Grupy
 Generuj
+Gasior
 Lab
 Linki
 Life
@@ -3986,6 +3988,7 @@ JaY
 JZ
 Jl
 JSON
+Johnny
 wykorzysta
 warunki
 wiczeniach
@@ -4213,6 +4216,7 @@ wykorzystania
 wychodz
 wydajne
 wybranego
+wejsc
 gdy
 goal
 growing
