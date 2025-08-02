@@ -1,7 +1,7 @@
 # 🎯 Personal Dashboard
 
 > [!quote] Thought of the Day
-> "Life is what happens while you're busy making other plans." - John Lennon
+> "Life is what happens ." - John Lennon
 
 > [!warning] **Important Notice**
 > - This dashboard is just an example, which assumes notes that don't exist in your vault and the "Dataview" plugin.
