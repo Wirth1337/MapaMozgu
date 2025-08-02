@@ -1,7 +1,8 @@
 # 🎯 Personal Dashboard
 
 > [!quote] Thought of the Day
-> "Lif." - John Lennon
+> "Wszedzie da sie wejsc." - Johnny Gasior
+>
 
 > [!warning] **Important Notice**
 > - This dashboard is just an example, which assumes notes that don't exist in your vault and the "Dataview" plugin.
