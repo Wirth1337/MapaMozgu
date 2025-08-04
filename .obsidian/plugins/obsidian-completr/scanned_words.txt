@@ -226,6 +226,12 @@ typowy
 telewizji
 transmisja
 tkie
+tablety
+traffic
+tables
+travel
+trz
+tkodystansowa
 date
 dkuj
 dashboard
@@ -460,6 +466,11 @@ dyskretnych
 duplex
 dwustronna
 dystanse
+dzeniu
+drukarki
+dzenie
+domowe
+dko
 YYYY
 You
 Yj
@@ -785,6 +796,7 @@ Download
 Drogi
 Decyzje
 Datagram
+Dawne
 status
 surowe
 sekcje
@@ -1102,6 +1114,12 @@ stosowany
 strumieniowe
 sieciami
 satelitarna
+smartfony
+switch
+stacjonarny
+serwery
+switchami
+standardowy
 Remember
 Recon
 REMEMBER
@@ -1235,6 +1253,8 @@ Routery
 Reprezentacja
 Rola
 Rodzaje
+Router
+Routing
 Organize
 ORGANIZE
 Ongoing
@@ -1345,6 +1365,8 @@ Organizacja
 Odpowiedzialna
 Oba
 Odpowiada
+OSPF
+Okablowanie
 Question
 QUESTION
 Quotes
@@ -1630,6 +1652,10 @@ connectionless
 czeniowych
 ciwych
 czeniowe
+cowe
+czniki
+cowymi
+cenia
 CyberSec
 CTF
 CheatSheet
@@ -1776,6 +1802,10 @@ Controls
 Celem
 Czyste
 Cyfrowa
+Components
+Cat
+Cabling
+Connectors
 Web
 Wellness
 Workouts
@@ -1899,6 +1929,9 @@ Warstwa
 Wytyczenie
 Wysy
 Wyr
+Wired
+Wireless
+Wady
 Exploits
 EXERCISES
 Efficiency
@@ -2001,6 +2034,7 @@ ESTABLISHED
 Eliminacja
 Etap
 Ethernet
+Ethernetu
 Network
 Note
 Notice
@@ -2107,6 +2141,7 @@ NEW
 Non
 Never
 Node
+NIC
 Forensics
 Fragmenty
 Focus
@@ -2210,6 +2245,8 @@ Fizyczna
 Fizyczne
 Fale
 Fi
+Forwarding
+Funkcja
 General
 Games
 Guide
@@ -2398,6 +2435,8 @@ LXC
 Lynis
 Linka
 Layer
+LAN
+Laptop
 Status
 Spacer
 Sources
@@ -2575,6 +2614,8 @@ Sprzedawca
 SMTP
 Simple
 Simplex
+Segmentacja
+Synchronizacja
 Type
 Tagowanie
 Table
@@ -2827,6 +2868,9 @@ Zablokuj
 Zasady
 Zapewnia
 Zapobiega
+Zapobieganie
+Zabezpieczenia
+Zalety
 informacje
 is
 in
@@ -2990,6 +3034,13 @@ internetowej
 internetowa
 interfejsu
 istotn
+inteligentne
+internetem
+identyfikator
+including
+inteligentnego
+interpretacji
+internecie
 Uporz
 Upcoming
 University
@@ -3105,6 +3156,7 @@ Utraty
 Ustalenie
 UDP
 Ustala
+Ustalaj
 podziel
 punkty
 przyk
@@ -3486,6 +3538,16 @@ praktycznym
 praktyk
 pocztowymi
 piloty
+powe
+programowe
+poczty
+przekazywanie
+przeci
+przewodowym
+przekazuj
+poprawia
+pracownik
+powane
 na
 notatki
 notes
@@ -3689,6 +3751,8 @@ nadawc
 niezawodno
 niamy
 naprzemiennie
+networks
+niska
 zlinkuj
 zane
 zmieni
@@ -3924,6 +3988,7 @@ ze
 zajmuje
 zrozumienia
 zastosowa
+zapory
 Kluczowe
 Key
 Knowledge
@@ -4024,6 +4089,11 @@ Kupiec
 Kompresji
 Kluczowy
 Kabel
+Komputery
+Kable
+Karta
+Komputer
+Komunikacja
 Powi
 Podkategorie
 Pytania
@@ -4230,6 +4300,11 @@ Przesy
 Protok
 Przewodowe
 Podczerwie
+Prze
+Przekierowuje
+Proste
+Protocols
+Przegl
 Jak
 John
 Jakbym
@@ -4553,6 +4628,8 @@ wietlenie
 wiedzy
 wykorzystuje
 wykorzystywana
+wygoda
+wtyk
 gdy
 goal
 growing
@@ -4936,6 +5013,10 @@ bliskie
 bridge
 bity
 bardzo
+baz
+bezprzewodowym
+biurze
+bezprzewodow
 ad
 an
 assumes
@@ -5150,6 +5231,10 @@ aktywnie
 adresowanie
 aspekt
 analogowa
+adaptery
+across
+aszaj
+adresowania
 Heading
 Highlights
 Health
@@ -5233,6 +5318,7 @@ Historia
 Hashowania
 Hase
 Half
+Hub
 Bullet
 Bold
 Blockquotes
@@ -5336,6 +5422,8 @@ Bezpiecze
 Bardziej
 Biometrii
 Bezprzewodowe
+BGP
+Bluetooth
 Italic
 Important
 Idea
@@ -5453,6 +5541,8 @@ Interfejs
 Internet
 Interface
 Idealny
+IoT
+Internetem
 of
 other
 own
@@ -5643,6 +5733,12 @@ oparta
 obie
 ow
 odleg
+oprogramowanie
+ogniowe
+optymalnych
+odbiorcy
+odporne
+odporno
 happens
 here
 hierarchies
@@ -5824,6 +5920,7 @@ ywana
 ymi
 ytkowe
 ywu
+ywie
 re
 review
 repository
@@ -6011,6 +6108,10 @@ ramkowanie
 rednio
 rozmowy
 rkowe
+rednicz
+routery
+ramach
+rozg
 making
 my
 main
@@ -6182,6 +6283,9 @@ model
 modeli
 modele
 mechanizmom
+modemy
+mobilno
+maili
 just
 jak
 jako
@@ -6403,6 +6507,7 @@ etykietowanie
 etapy
 enkapsulacja
 energii
+eniom
 vault
 ve
 visualize
@@ -6641,6 +6746,7 @@ uzupe
 upload
 ustanawia
 uporz
+unikalny
 Areas
 Active
 Algorithm
@@ -6771,6 +6877,9 @@ Aplikacja
 APIs
 Adresowanie
 Analogowa
+Adres
+ACL
+Adresy
 Vault
 Visual
 Variation
@@ -6967,6 +7076,9 @@ funkcjonowania
 fizycznie
 fundamentem
 funkcj
+firewall
+fizyczn
+formatowania
 knowledge
 key
 keeping
@@ -7144,6 +7256,11 @@ kierunku
 koncentryczny
 kablowej
 kom
+komputery
+kolizje
+kilkoma
+komputerami
+kabla
 quick
 questions
 queries

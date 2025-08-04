@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Knowledge/Computer/CyberSecurity/Networks/Komponenty.md",
+                "file": "02 - Knowledge/Computer/CyberSecurity/Networks/Komunikacja.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Komponenty"
+              "title": "Komunikacja"
             }
           }
         ]
@@ -240,6 +240,7 @@
   "lastOpenFiles": [
     "02 - Knowledge/Computer/CyberSecurity/Networks/Koncepty Sieci.md",
     "02 - Knowledge/Computer/CyberSecurity/Networks/Komponenty.md",
+    "02 - Knowledge/Computer/CyberSecurity/Networks/Komunikacja.md",
     "01_Reference/Pasted image 20250804142158.png",
     "01_Reference/Pasted image 20250804141915.png",
     "00 - Dashboard/HOME.md",
@@ -276,7 +277,6 @@
     "01_Reference/linux-commands-cheat-sheet.pdf",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Service And Process Managment.md",
     "04 - References/Courses/HTB/cURL.md",
-    "02 - Knowledge/Computer/CyberSecurity/Linux/Deskryptory.md",
     "04 - References/CheatSheet",
     "04 - References/Courses/HTB",
     "04 - References/Books/Cybersecurity/Linux",
