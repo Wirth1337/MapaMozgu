@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Knowledge/Computer/CyberSecurity/Networks/DNS.md",
+                "file": "02 - Knowledge/Computer/CyberSecurity/Networks/Architektura.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "DNS"
+              "title": "Architektura"
             }
           }
         ]
@@ -141,7 +141,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tagi"
+              "title": "Tags"
             }
           },
           {
@@ -194,7 +194,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       },
       {
         "id": "3d559545f0b02229",
@@ -222,7 +222,6 @@
     "hiddenItems": {
       "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
@@ -233,15 +232,19 @@
       "obsidian-excalidraw-plugin:New drawing": false,
       "homepage:Open homepage": false,
       "obsidian-importer:Open Importer": false,
-      "obsidian-kanban:Create new board": false
+      "obsidian-kanban:Create new board": false,
+      "graph:Open graph view": false
     }
   },
   "active": "20df632a955858e9",
   "lastOpenFiles": [
+    "01_Reference/Pasted image 20250804161818.png",
+    "01_Reference/Pasted image 20250804161652.png",
+    "02 - Knowledge/Computer/CyberSecurity/Networks/DNS.md",
+    "02 - Knowledge/Computer/CyberSecurity/Networks/Architektura.md",
     "01_Reference/Pasted image 20250804155931.png",
     "01_Reference/Pasted image 20250804155924.png",
     "02 - Knowledge/Computer/CyberSecurity/Networks/NAT.md",
-    "02 - Knowledge/Computer/CyberSecurity/Networks/DNS.md",
     "01_Reference/Pasted image 20250804153539.png",
     "02 - Knowledge/Computer/CyberSecurity/Networks/DHCP.md",
     "01_Reference/DORA-3.gif",
@@ -253,8 +256,6 @@
     "01_Reference/Pasted image 20250804151536.png",
     "02 - Knowledge/Computer/CyberSecurity/Networks/Koncepty Sieci.md",
     "02 - Knowledge/Computer/CyberSecurity/Networks/Komponenty.md",
-    "01_Reference/Pasted image 20250804142158.png",
-    "01_Reference/Pasted image 20250804141915.png",
     "00 - Dashboard/HOME.md",
     "02 - Knowledge/Computer/CyberSecurity/Networks/Network Main.md",
     "02 - Knowledge/Computer/CyberSecurity/Networks",
@@ -275,7 +276,6 @@
     "02 - Knowledge/Computer/CyberSecurity/Linux/Backup.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Working With Web Services.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Package Management.md",
-    "02 - Knowledge/Computer/CyberSecurity/Linux/User Management.md",
     "01_Reference/linux-commands-cheat-sheet.pdf",
     "04 - References/CheatSheet",
     "04 - References/Courses/HTB",
