@@ -99,7 +99,11 @@ Tłumacz między aplikacjami a formatem sieciowym. Reprezentacja danych, czyli d
 - konwersja formatów
 Protokoły szyfrowania i Techniki Kompresji zabezpieczają i optymalizują transmisję danych.
 
-## 7.
+## 7. Application Layer
+
+
+
+
 
 ## Review Questions
 - Question 1?
