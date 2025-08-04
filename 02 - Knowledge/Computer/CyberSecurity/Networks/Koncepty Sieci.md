@@ -101,7 +101,112 @@ Protokoły szyfrowania i Techniki Kompresji zabezpieczają i optymalizują trans
 
 ## 7. Application Layer
 
+Interfejs miedzy sięcią i aplikacjami
 
+`HTTP (Hypertext Transfer Protocol)` - dla przeglądania sieci
+`FTP (File Transfer Protocol)` - przesył plików
+`SMTP (Simple Mail Transfer Protocol)` - maile
+`DNS (Domain Name System)` - przypisywanie domen do adresów IP
+
+
+## Jak to działa
+
+Przesyłamy plik: 
+- Application Layer inicjuje ządanie przesyłu plików. 
+- Presentation Layer je szyfruje. 
+- Session Layer stabilizuje sesje komunikacji między dwoma urządzeniami. 
+- Transport Layer rozbija pliki na segmenty żeby zapewnić transmisje bez błędów
+- Network Layer Sprawdza najlepszą trasę dla plików.
+- Data Link Layer zbiera dane w ramki przygotowując je do node-to-node delivery
+- Physical Layer przesyła bity poprzez fizyczne medium
+
+---
+
+## TCP/IP Model
+
+`Transmission Control Protocol/Internet Protocol (TCP/IP) model` wersja tego wyżej ale praktyczna.
+
+![[Pasted image 20250804141915.png]]
+
+## 1. Link Layer
+
+Fizyczne aspekty przesyłania danych i ramkowanie (1 i 2 z OSI).
+
+## 2. Internet Layer
+
+Adresowanie urządzeń i routing pakietów przez sieć. IP i [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) 3 warstwa w OSI.
+
+## 3. Transport Layer
+Na warstwie transportowej model TCP/IP zapewnia usługi komunikacji typu end-to-end, które są niezbędne dla funkcjonowania internetu. Obejmuje to wykorzystanie protokołu TCP (Transmission Control Protocol) do niezawodnej komunikacji oraz protokołu UDP (User Datagram Protocol) do szybszych, bezpołączeniowych usług. Warstwa ta zapewnia, że pakiety danych są dostarczane w kolejności i bez błędów, co odpowiada warstwie transportowej modelu OSI.
+
+## 4. Application Layer
+
+Protokoły odpowiadajace za wymiane danych miedzy aplikacjami.
+Takie jak 5,6,7 warstwa OSI
+
+
+![[Pasted image 20250804142158.png]]
+
+### Przykład dostępu do strony internetowej
+
+Podczas uzyskiwania dostępu do strony internetowej współpracują ze sobą różne warstwy modelu TCP/IP. W warstwie aplikacji przeglądarka korzysta z protokołu HTTP, aby zażądać strony. Następnie żądanie trafia do warstwy transportowej, gdzie TCP zapewnia niezawodny przesył danych. Warstwa internetowa (Internet Layer) zajmuje się trasowaniem pakietów danych dzięki protokołowi IP. Na końcu, w warstwie interfejsu sieciowego (Network Interface Layer), dane są fizycznie przesyłane przez sieć, co umożliwia wyświetlenie strony.
+
+### Rola modeli
+
+Model TCP/IP jest praktycznym fundamentem transmisji danych w sieciach i jest aktywnie stosowany w różnych środowiskach sieciowych. Z kolei model OSI, choć nie jest bezpośrednio wdrażany, pełni istotną funkcję jako teoretyczne narzędzie do zrozumienia działania sieci. Umożliwia on usystematyzowanie wiedzy i ułatwia analizę procesów sieciowych. Oba modele – TCP/IP i OSI – uzupełniają się, tworząc spójną całość łączącą teorię z praktyką w dziedzinie sieci komputerowych.
+
+| Protokół | Opis |
+|----------|------|
+| **HTTP (Hypertext Transfer Protocol)** | Głównie używany do przesyłania stron internetowych. Działa na **warstwie aplikacji**, umożliwiając komunikację między przeglądarkami a serwerami w celu dostarczania treści WWW. |
+| **FTP (File Transfer Protocol)** | Umożliwia przesyłanie plików między systemami, również działa na **warstwie aplikacji**. Pozwala użytkownikom na przesyłanie (upload) i pobieranie (download) plików z/do serwerów. |
+| **SMTP (Simple Mail Transfer Protocol)** | Odpowiada za przesyłanie wiadomości e-mail. Działa na **warstwie aplikacji**, zapewniając dostarczenie wiadomości między serwerami pocztowymi do właściwych odbiorców. |
+| **TCP (Transmission Control Protocol)** | Zapewnia niezawodne przesyłanie danych dzięki mechanizmom sprawdzania błędów i odzyskiwania danych. Działa na **warstwie transportowej** i ustanawia połączenie między nadawcą a odbiorcą, gwarantując uporządkowane dostarczenie danych. |
+| **UDP (User Datagram Protocol)** | Umożliwia szybkie, bezpołączeniowe przesyłanie danych, bez sprawdzania błędów. Idealny do zastosowań, gdzie liczy się szybkość bardziej niż niezawodność (np. transmisje strumieniowe). Działa na **warstwie transportowej**. |
+| **IP (Internet Protocol)** | Kluczowy do trasowania pakietów między różnymi sieciami. Działa na **warstwie internetowej**, odpowiada za adresowanie i kierowanie pakietów od źródła do celu. |
+
+
+---
+
+## 📡 Transmisja danych w sieciach komputerowych
+
+**Transmisja** to proces przesyłania sygnałów (danych) między urządzeniami za pomocą określonego medium. Wyróżniamy kilka kluczowych aspektów transmisji:
+
+### 🔄 Rodzaje transmisji
+
+- **Analogowa** – wykorzystuje ciągłe sygnały (np. radio, telewizja analogowa).
+    
+- **Cyfrowa** – oparta na sygnałach dyskretnych (bity), wykorzystywana w nowoczesnych sieciach komputerowych.
+    
+
+### 🔁 Tryby transmisji
+
+- **Simplex** – komunikacja tylko w jednym kierunku (np. klawiatura → komputer).
+    
+- **Half-duplex** – komunikacja w obie strony, ale naprzemiennie (np. krótkofalówki).
+    
+- **Full-duplex** – jednoczesna komunikacja dwustronna (np. rozmowy telefoniczne).
+    
+
+### 🌐 Media transmisyjne
+
+- **Przewodowe:**
+    
+    - _Skrętka_ – typowy w sieciach Ethernet.
+        
+    - _Kabel koncentryczny_ – używany m.in. w telewizji kablowej.
+        
+    - _Światłowód_ – bardzo szybka transmisja na duże odległości.
+        
+- **Bezprzewodowe:**
+    
+    - _Fale radiowe_ – np. Wi-Fi, sieci komórkowe.
+        
+    - _Mikrofale_ – transmisja satelitarna.
+        
+    - _Podczerwień_ – krótkie dystanse, np. piloty.
+        
+
+---
 
 
 

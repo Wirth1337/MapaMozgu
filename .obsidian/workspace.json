@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "399b789516c2b41a",
+        "id": "988e3929e80c5556",
         "type": "tabs",
         "children": [
           {
-            "id": "1b9539d7b776f0b8",
+            "id": "20df632a955858e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Knowledge/Computer/CyberSecurity/Networks/Koncepty Sieci.md",
+                "file": "02 - Knowledge/Computer/CyberSecurity/Networks/Komponenty.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Koncepty Sieci"
+              "title": "Komponenty"
             }
           }
         ]
@@ -215,7 +215,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -235,10 +236,13 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "1b9539d7b776f0b8",
+  "active": "20df632a955858e9",
   "lastOpenFiles": [
-    "00 - Dashboard/HOME.md",
     "02 - Knowledge/Computer/CyberSecurity/Networks/Koncepty Sieci.md",
+    "02 - Knowledge/Computer/CyberSecurity/Networks/Komponenty.md",
+    "01_Reference/Pasted image 20250804142158.png",
+    "01_Reference/Pasted image 20250804141915.png",
+    "00 - Dashboard/HOME.md",
     "01_Reference/Pasted image 20250802220316.png",
     "01_Reference/Pasted image 20250802215703.png",
     "01_Reference/Pasted image 20250802212940.png",
@@ -266,8 +270,6 @@
     "02 - Knowledge/Computer/CyberSecurity/Linux/Working With Web Services.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Package Management.md",
     "01_Reference/Pasted image 20250729200602.png",
-    "01_Reference/Pasted image 20250729200355.png",
-    "01_Reference/Pasted image 20250729194252.png",
     "02 - Knowledge/Computer/CyberSecurity/Linux/User Management.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Permission Management.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Regular Expressions.md",
