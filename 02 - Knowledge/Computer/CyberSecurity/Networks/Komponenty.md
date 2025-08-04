@@ -80,7 +80,8 @@ last_updated: 2025-08-04
 - **Zarządzanie ruchem**: wybór optymalnych ścieżek.
     
 - **Zabezpieczenia**: firewall, ACL (Access Control Lists).
-    
+
+- `Open Shortest Path First (OSPF)` or `Border Gateway Protocol (BGP)` to find the most efficient path for data to travel across interconnected networks, including the internet.
 
 **Przykład**:  
 Router domowy łączy wszystkie urządzenia (komputery, smartfony, TV) z Internetem.
@@ -123,7 +124,7 @@ Sieć to nie tylko sprzęt – to także fizyczne nośniki transmisji i oprogram
 
 ### 🔌 Network Media (Nośniki transmisji)
 
-**Funkcja**: Tworzą fizyczną (lub bezprzewodową) drogę transmisji danych między urządzeniami.
+**Funkcja**: Tworzą fizyczną (lub bezprzewodową) drogę transmisji danych między urządzeniami
 
 #### 🔧 Przewodowe
 
