@@ -5,6 +5,10 @@
       "path": "02 - Knowledge/Computer/CyberSecurity/Networks/Architektura.md"
     },
     {
+      "basename": "HOME",
+      "path": "00 - Dashboard/HOME.md"
+    },
+    {
       "basename": "DNS",
       "path": "02 - Knowledge/Computer/CyberSecurity/Networks/DNS.md"
     },
@@ -27,10 +31,6 @@
     {
       "basename": "Komponenty",
       "path": "02 - Knowledge/Computer/CyberSecurity/Networks/Komponenty.md"
-    },
-    {
-      "basename": "HOME",
-      "path": "00 - Dashboard/HOME.md"
     },
     {
       "basename": "Network Main",

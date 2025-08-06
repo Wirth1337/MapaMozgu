@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "988e3929e80c5556",
+        "id": "a105a9aa73e9d5df",
         "type": "tabs",
         "children": [
           {
-            "id": "20df632a955858e9",
+            "id": "0e7740217c1452d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -194,7 +194,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "3d559545f0b02229",
@@ -236,12 +236,14 @@
       "graph:Open graph view": false
     }
   },
-  "active": "20df632a955858e9",
+  "active": "0e7740217c1452d7",
   "lastOpenFiles": [
+    "01_Reference/Pasted image 20250806144032.png",
+    "00 - Dashboard/HOME.md",
+    "02 - Knowledge/Computer/CyberSecurity/Networks/Architektura.md",
     "01_Reference/Pasted image 20250804161818.png",
     "01_Reference/Pasted image 20250804161652.png",
     "02 - Knowledge/Computer/CyberSecurity/Networks/DNS.md",
-    "02 - Knowledge/Computer/CyberSecurity/Networks/Architektura.md",
     "01_Reference/Pasted image 20250804155931.png",
     "01_Reference/Pasted image 20250804155924.png",
     "02 - Knowledge/Computer/CyberSecurity/Networks/NAT.md",
@@ -253,10 +255,8 @@
     "01_Reference/Pasted image 20250804151912.png",
     "01_Reference/Pasted image 20250804151853.png",
     "01_Reference/Pasted image 20250804151603.png",
-    "01_Reference/Pasted image 20250804151536.png",
     "02 - Knowledge/Computer/CyberSecurity/Networks/Koncepty Sieci.md",
     "02 - Knowledge/Computer/CyberSecurity/Networks/Komponenty.md",
-    "00 - Dashboard/HOME.md",
     "02 - Knowledge/Computer/CyberSecurity/Networks/Network Main.md",
     "02 - Knowledge/Computer/CyberSecurity/Networks",
     "02 - Knowledge/Computer/CyberSecurity/CyberSec Main.md",

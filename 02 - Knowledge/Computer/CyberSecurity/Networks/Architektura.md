@@ -113,9 +113,131 @@ Model **Client-Server** to jedna z najpopularniejszych architektur w Internecie.
 |**Wysokie koszty utrzymania**|Konfiguracja i eksploatacja serwerów wymaga zasobów i specjalistów.|
 |**Kongestia sieci**|Duży ruch klientów może spowalniać lub zakłócać połączenia.|
 
+---
 
+## 🔀 Architektura hybrydowa
 
+**Architektura hybrydowa** łączy elementy modeli **klient-serwer** oraz **Peer-to-Peer (P2P)**.  
+W tym modelu:
 
+- **Centralne serwery** odpowiadają za uwierzytelnianie użytkowników, zarządzanie sesjami oraz inne funkcje kontrolne.
+    
+- **Transfer danych** (np. pliki, multimedia) odbywa się **bezpośrednio między urządzeniami** użytkowników (peerami), co pozwala odciążyć serwery i zwiększyć wydajność.
+    
+
+---
+
+### 🎥 Przykład: Aplikacja do wideokonferencji
+
+1. **Logowanie i autoryzacja**  
+    Użytkownik uruchamia aplikację i loguje się. Dane logowania (login, hasło) są weryfikowane przez centralny serwer.
+    
+2. **Rozpoczęcie spotkania**  
+    Serwer koordynuje, kto bierze udział w spotkaniu, zarządza dostępem i informuje uczestników o nowym połączeniu.
+    
+3. **Transmisja danych**  
+    W momencie rozpoczęcia rozmowy wideo, przesyłanie obrazu i dźwięku odbywa się **bezpośrednio między urządzeniami użytkowników**, z pominięciem serwera.  
+    Dzięki temu ograniczane są opóźnienia i zwiększa się jakość połączenia.
+![[Pasted image 20250806144032.png]]
+### 📈 Zalety i wady
+
+| Zaleta        | Opis                                                                           |
+| ------------- | ------------------------------------------------------------------------------ |
+| **Wydajność** | Serwer jest odciążany – dane przesyłane są bezpośrednio między peerami.        |
+| **Kontrola**  | Centralny serwer nadal może zarządzać użytkownikami, indeksami lub katalogami. |
+
+| Wada                    | Opis                                                                             |
+| ----------------------- | -------------------------------------------------------------------------------- |
+| **Złożoność wdrożenia** | Wymaga starannie zaprojektowanej integracji komponentów scentralizowanych i P2P. |
+| **Punkt awarii**        | Awaria serwera centralnego może uniemożliwić logowanie lub inicjację sesji.      |
+
+---
+
+## ☁️ Architektura chmurowa (Cloud Architecture)
+
+**Architektura chmurowa** odnosi się do infrastruktury obliczeniowej, która jest **hostowana i zarządzana przez zewnętrznych dostawców usług**, takich jak AWS, Microsoft Azure czy Google Cloud.  
+Działa ona w modelu **klient-serwer** i oferuje **dostęp na żądanie** do zasobów takich jak serwery, przestrzeń dyskowa, aplikacje i bazy danych – wszystko za pośrednictwem Internetu.  
+Użytkownicy **korzystają z usług**, nie mając dostępu do ani kontroli nad fizycznym sprzętem.
+
+---
+
+### 📦 Przykłady:
+
+- **Google Drive**, **Dropbox** – aplikacje w modelu **SaaS** (Software as a Service), gdzie użytkownik korzysta z usługi przez przeglądarkę lub aplikację, nie martwiąc się o infrastrukturę.
+### 🔑 Kluczowe cechy architektury chmurowej:
+
+| Cecha                                     | Opis                                                                           |
+| ----------------------------------------- | ------------------------------------------------------------------------------ |
+| 1. **Samodzielna obsługa na żądanie**     | Możliwość automatycznego uruchamiania usług bez udziału człowieka.             |
+| 2. **Szeroki dostęp sieciowy**            | Usługi dostępne z dowolnego urządzenia z dostępem do Internetu.                |
+| 3. **Pula zasobów współdzielona**         | Dynamiczne przydzielanie zasobów pomiędzy wieloma użytkownikami.               |
+| 4. **Szybka elastyczność (skalowalność)** | Możliwość dynamicznego zwiększania lub zmniejszania zasobów.                   |
+| 5. **Usługa mierzona**                    | Płacisz tylko za rzeczywiste zużycie zasobów (np. moc obliczeniowa, transfer). |
+
+### 📈 Zalety i wady
+
+#### ✅ Zalety:
+
+|Zaleta|Opis|
+|---|---|
+|**Skalowalność**|Łatwe dostosowanie zasobów do potrzeb.|
+|**Niższe koszty utrzymania**|Sprzęt zarządzany przez dostawcę.|
+|**Elastyczność**|Dostęp do usług z dowolnego miejsca na świecie.|
+
+#### ❌ Wady:
+
+|Wada|Opis|
+|---|---|
+|**Uzależnienie od dostawcy (vendor lock-in)**|Trudności przy migracji do innego dostawcy chmury.|
+|**Bezpieczeństwo i zgodność**|Przekazanie danych stronie trzeciej może budzić obawy o prywatność.|
+|**Wymóg połączenia z Internetem**|Brak stabilnego połączenia uniemożliwia korzystanie z usług.|
+
+---
+## 🧠 Architektura zdefiniowana programowo (SDN – Software-Defined Networking)
+
+**SDN** to nowoczesne podejście do budowy sieci, które **oddziela warstwę kontrolną (Control Plane)** od **warstwy przesyłu danych (Data Plane)**.
+
+- Tradycyjnie oba elementy były zintegrowane w jednym urządzeniu (np. ruterze).
+    
+- W **SDN** warstwa kontrolna jest **centralizowana w kontrolerze programowym**, który podejmuje decyzje o trasowaniu ruchu.
+    
+- Urządzenia sieciowe (np. przełączniki) jedynie **wykonują polecenia** otrzymywane od kontrolera.
+    
+
+### 📈 Zalety i wady
+
+#### ✅ Zalety:
+
+| Zaleta                              | Opis                                                                              |
+| ----------------------------------- | --------------------------------------------------------------------------------- |
+| **Centralne sterowanie**            | Upraszcza zarządzanie siecią.                                                     |
+| **Programowalność i automatyzacja** | Możliwość zmiany konfiguracji sieci przez oprogramowanie, bez ręcznego działania. |
+| **Skalowalność i wydajność**        | Możliwość dynamicznego optymalizowania tras i zasobów.                            |
+
+#### ❌ Wady:
+
+|Wada|Opis|
+|---|---|
+|**Wrażliwość na awarie kontrolera**|Utrata kontrolera może zakłócić pracę całej sieci.|
+|**Złożoność wdrożenia**|Wymaga specjalistycznej wiedzy i nowej infrastruktury.|
+
+---
+
+### 💼 Przykład zastosowania:
+
+Duże firmy i dostawcy chmur wykorzystują SDN do dynamicznego przydzielania pasma, sterowania ruchem w czasie rzeczywistym i automatyzacji zarządzania politykami sieciowymi.
+
+## 📊 Porównanie architektur sieciowych
+
+| Architektura      | Centralizacja               | Skalowalność                  | Łatwość zarządzania                | Typowe zastosowania               |
+| ----------------- | --------------------------- | ----------------------------- | ---------------------------------- | --------------------------------- |
+| **P2P**           | Zdecentralizowana           | Wysoka (wraz z liczbą peerów) | Złożone (brak kontroli centralnej) | Udostępnianie plików, blockchain  |
+| **Klient-Serwer** | Centralna                   | Umiarkowana                   | Łatwa (dzięki serwerowi)           | Strony internetowe, e-mail        |
+| **Hybrydowa**     | Częściowo centralna         | Wyższa niż klient-serwer      | Bardziej złożona                   | Komunikatory, wideokonferencje    |
+| **Chmurowa**      | Centralna u dostawcy        | Wysoka                        | Łatwa (outsourcing)                | SaaS, PaaS, przechowywanie danych |
+| **SDN**           | Centralna warstwa kontrolna | Wysoka (policy-driven)        | Średnia (wymaga narzędzi)          | Centra danych, duże sieci firmowe |
+
+---
 ## Review Questions
 - Question 1?
 - Question 2?
