@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "HOME",
+      "path": "00 - Dashboard/HOME.md"
+    },
+    {
       "basename": "Data Flow",
       "path": "02 - Knowledge/Computer/CyberSecurity/Networks/Data Flow.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "Architektura",
       "path": "02 - Knowledge/Computer/CyberSecurity/Networks/Architektura.md"
-    },
-    {
-      "basename": "HOME",
-      "path": "00 - Dashboard/HOME.md"
     },
     {
       "basename": "DNS",
