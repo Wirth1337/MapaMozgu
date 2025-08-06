@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "dc9271343161f0a9",
+        "id": "7ce0d3ad2b793875",
         "type": "tabs",
         "children": [
           {
-            "id": "b170a024aeda285a",
+            "id": "951130233e9bf04d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04 - References/Courses/HTB/FTP/HTTP.md",
+                "file": "04 - References/Courses/HTB/FTP i HTTP.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "HTTP"
+              "title": "FTP i HTTP"
             }
           }
         ]
@@ -98,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 355
+    "width": 355,
+    "collapsed": true
   },
   "right": {
     "id": "62568a0377e7edf7",
@@ -214,7 +215,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -234,15 +236,17 @@
       "graph:Open graph view": false
     }
   },
-  "active": "b170a024aeda285a",
+  "active": "951130233e9bf04d",
   "lastOpenFiles": [
-    "04 - References/Courses/HTB/cURL.md",
+    "00 - Dashboard/HOME.md",
+    "04 - References/Courses/HTB/FTP i HTTP.md",
     "04 - References/Courses/HTB/FTP/HTTP.md",
+    "01_Reference/Pasted image 20250806165808.png",
+    "04 - References/Courses/HTB/cURL.md",
     "04 - References/Courses/HTB/FTP",
     "04 - References/Courses/HTB/Untitled.md",
     "02 - Knowledge/Computer/CyberSecurity/Networks/Komponenty.md",
     "02 - Knowledge/Computer/CyberSecurity/Networks/Koncepty Sieci.md",
-    "00 - Dashboard/HOME.md",
     "02 - Knowledge/Computer/CyberSecurity/Networks/Data Flow.md",
     "01_Reference/Pasted image 20250806152212.png",
     "02 - Knowledge/Computer/CyberSecurity/Networks/Firewall i IDS IPS.md",
@@ -264,7 +268,6 @@
     "02 - Knowledge/Computer/CyberSecurity/Networks/NAT.md",
     "01_Reference/Pasted image 20250804153539.png",
     "02 - Knowledge/Computer/CyberSecurity/Networks/DHCP.md",
-    "01_Reference/DORA-3.gif",
     "02 - Knowledge/Computer/CyberSecurity/Networks/Komunikacja.md",
     "02 - Knowledge/Computer/CyberSecurity/Networks/Network Main.md",
     "02 - Knowledge/Computer/CyberSecurity/Networks",
@@ -274,7 +277,6 @@
     "02 - Knowledge/Computer/CyberSecurity/Linux/Zabezpieczenia Linux.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Logi.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Protokoły zdalnego pulpitu.md",
-    "02 - Knowledge/Computer/CyberSecurity/Linux/Konfiguracja Sieci.md",
     "Bez nazwy.canvas",
     "01_Reference/linux-commands-cheat-sheet.pdf",
     "04 - References/CheatSheet",
