@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a105a9aa73e9d5df",
+        "id": "dc9271343161f0a9",
         "type": "tabs",
         "children": [
           {
-            "id": "0e7740217c1452d7",
+            "id": "b170a024aeda285a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Knowledge/Computer/CyberSecurity/Networks/Data Flow.md",
+                "file": "04 - References/Courses/HTB/FTP/HTTP.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Data Flow"
+              "title": "HTTP"
             }
           }
         ]
@@ -98,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 355,
-    "collapsed": true
+    "width": 355
   },
   "right": {
     "id": "62568a0377e7edf7",
@@ -194,7 +193,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "3d559545f0b02229",
@@ -235,11 +234,18 @@
       "graph:Open graph view": false
     }
   },
-  "active": "0e7740217c1452d7",
+  "active": "b170a024aeda285a",
   "lastOpenFiles": [
+    "04 - References/Courses/HTB/cURL.md",
+    "04 - References/Courses/HTB/FTP/HTTP.md",
+    "04 - References/Courses/HTB/FTP",
+    "04 - References/Courses/HTB/Untitled.md",
+    "02 - Knowledge/Computer/CyberSecurity/Networks/Komponenty.md",
+    "02 - Knowledge/Computer/CyberSecurity/Networks/Koncepty Sieci.md",
+    "00 - Dashboard/HOME.md",
+    "02 - Knowledge/Computer/CyberSecurity/Networks/Data Flow.md",
     "01_Reference/Pasted image 20250806152212.png",
     "02 - Knowledge/Computer/CyberSecurity/Networks/Firewall i IDS IPS.md",
-    "02 - Knowledge/Computer/CyberSecurity/Networks/Data Flow.md",
     "01_Reference/Pasted image 20250806151602.png",
     "01_Reference/Pasted image 20250806151528.png",
     "02 - Knowledge/Computer/CyberSecurity/Networks/Wireless.md",
@@ -250,7 +256,6 @@
     "02 - Knowledge/Computer/CyberSecurity/Networks/Cloud Architecture.md",
     "02 - Knowledge/Computer/CyberSecurity/Networks/Cloud Architecture1.md",
     "01_Reference/Pasted image 20250806144032.png",
-    "00 - Dashboard/HOME.md",
     "01_Reference/Pasted image 20250804161818.png",
     "01_Reference/Pasted image 20250804161652.png",
     "02 - Knowledge/Computer/CyberSecurity/Networks/DNS.md",
@@ -260,10 +265,7 @@
     "01_Reference/Pasted image 20250804153539.png",
     "02 - Knowledge/Computer/CyberSecurity/Networks/DHCP.md",
     "01_Reference/DORA-3.gif",
-    "01_Reference/Pasted image 20250804152750.png",
     "02 - Knowledge/Computer/CyberSecurity/Networks/Komunikacja.md",
-    "02 - Knowledge/Computer/CyberSecurity/Networks/Koncepty Sieci.md",
-    "02 - Knowledge/Computer/CyberSecurity/Networks/Komponenty.md",
     "02 - Knowledge/Computer/CyberSecurity/Networks/Network Main.md",
     "02 - Knowledge/Computer/CyberSecurity/Networks",
     "02 - Knowledge/Computer/CyberSecurity/CyberSec Main.md",
@@ -273,8 +275,6 @@
     "02 - Knowledge/Computer/CyberSecurity/Linux/Logi.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Protokoły zdalnego pulpitu.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Konfiguracja Sieci.md",
-    "02 - Knowledge/Computer/CyberSecurity/Linux/File Managment System.md",
-    "02 - Knowledge/Computer/CyberSecurity/Linux/Linux Main.md",
     "Bez nazwy.canvas",
     "01_Reference/linux-commands-cheat-sheet.pdf",
     "04 - References/CheatSheet",
@@ -282,7 +282,6 @@
     "04 - References/Books/Cybersecurity/Linux",
     "04 - References/Books/Cybersecurity",
     "01_Reference",
-    "Excalidraw",
-    "02 - Knowledge/Computer/CyberSecurity/Linux"
+    "Excalidraw"
   ]
 }
