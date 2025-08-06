@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Knowledge/Computer/CyberSecurity/Networks/Wireless.md",
+                "file": "02 - Knowledge/Computer/CyberSecurity/Networks/Data Flow.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Wireless"
+              "title": "Data Flow"
             }
           }
         ]
@@ -98,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 355
+    "width": 355,
+    "collapsed": true
   },
   "right": {
     "id": "62568a0377e7edf7",
@@ -237,8 +238,15 @@
   },
   "active": "0e7740217c1452d7",
   "lastOpenFiles": [
-    "02 - Knowledge/Computer/CyberSecurity/Networks/Architektura.md",
+    "01_Reference/Pasted image 20250806152212.png",
+    "02 - Knowledge/Computer/CyberSecurity/Networks/Firewall i IDS IPS.md",
+    "02 - Knowledge/Computer/CyberSecurity/Networks/Data Flow.md",
+    "01_Reference/Pasted image 20250806151602.png",
+    "01_Reference/Pasted image 20250806151528.png",
     "02 - Knowledge/Computer/CyberSecurity/Networks/Wireless.md",
+    "02 - Knowledge/Computer/CyberSecurity/Networks/Firewall i IDS/IPS.md",
+    "02 - Knowledge/Computer/CyberSecurity/Networks/Firewall i IDS",
+    "02 - Knowledge/Computer/CyberSecurity/Networks/Architektura.md",
     "02 - Knowledge/Computer/CyberSecurity/Networks/Cloud Architecture2.md",
     "02 - Knowledge/Computer/CyberSecurity/Networks/Cloud Architecture.md",
     "02 - Knowledge/Computer/CyberSecurity/Networks/Cloud Architecture1.md",
@@ -255,8 +263,6 @@
     "01_Reference/DORA-3.gif",
     "01_Reference/Pasted image 20250804152750.png",
     "02 - Knowledge/Computer/CyberSecurity/Networks/Komunikacja.md",
-    "01_Reference/Pasted image 20250804151912.png",
-    "01_Reference/Pasted image 20250804151853.png",
     "02 - Knowledge/Computer/CyberSecurity/Networks/Koncepty Sieci.md",
     "02 - Knowledge/Computer/CyberSecurity/Networks/Komponenty.md",
     "02 - Knowledge/Computer/CyberSecurity/Networks/Network Main.md",
@@ -270,11 +276,7 @@
     "02 - Knowledge/Computer/CyberSecurity/Linux/Konfiguracja Sieci.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/File Managment System.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Linux Main.md",
-    "02 - Knowledge/Computer/CyberSecurity/Linux/Containerization.md",
-    "02 - Knowledge/Computer/CyberSecurity/Linux/VIM.md",
     "Bez nazwy.canvas",
-    "02 - Knowledge/Computer/CyberSecurity/Linux/Network Services.md",
-    "02 - Knowledge/Computer/CyberSecurity/Linux/Task Scheduling.md",
     "01_Reference/linux-commands-cheat-sheet.pdf",
     "04 - References/CheatSheet",
     "04 - References/Courses/HTB",
@@ -282,7 +284,6 @@
     "04 - References/Books/Cybersecurity",
     "01_Reference",
     "Excalidraw",
-    "02 - Knowledge/Computer/CyberSecurity/Linux",
-    "02 - Knowledge/Computer/CyberSecurity"
+    "02 - Knowledge/Computer/CyberSecurity/Linux"
   ]
 }
