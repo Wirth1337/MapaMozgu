@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "Adresy Sieciowe",
+      "path": "02 - Knowledge/Computer/CyberSecurity/Networks/Adresy Sieciowe.md"
+    },
+    {
+      "basename": "Koncepty Sieci",
+      "path": "02 - Knowledge/Computer/CyberSecurity/Networks/Koncepty Sieci.md"
+    },
+    {
+      "basename": "Proxy",
+      "path": "02 - Knowledge/Computer/CyberSecurity/Networks/Proxy.md"
+    },
+    {
+      "basename": "Wireless",
+      "path": "02 - Knowledge/Computer/CyberSecurity/Networks/Wireless.md"
+    },
+    {
+      "basename": "Komponenty",
+      "path": "02 - Knowledge/Computer/CyberSecurity/Networks/Komponenty.md"
+    },
+    {
       "basename": "HOME",
       "path": "00 - Dashboard/HOME.md"
     },
@@ -15,10 +35,6 @@
     {
       "basename": "Firewall i IDS IPS",
       "path": "02 - Knowledge/Computer/CyberSecurity/Networks/Firewall i IDS IPS.md"
-    },
-    {
-      "basename": "Komponenty",
-      "path": "02 - Knowledge/Computer/CyberSecurity/Networks/Komponenty.md"
     },
     {
       "basename": "Data Flow",
@@ -37,20 +53,12 @@
       "path": "02 - Knowledge/Computer/CyberSecurity/Networks/DHCP.md"
     },
     {
-      "basename": "Koncepty Sieci",
-      "path": "02 - Knowledge/Computer/CyberSecurity/Networks/Koncepty Sieci.md"
-    },
-    {
       "basename": "FTP i HTTP",
       "path": "04 - References/Courses/HTB/FTP i HTTP.md"
     },
     {
       "basename": "cURL",
       "path": "04 - References/Courses/HTB/cURL.md"
-    },
-    {
-      "basename": "Wireless",
-      "path": "02 - Knowledge/Computer/CyberSecurity/Networks/Wireless.md"
     },
     {
       "basename": "NAT",
@@ -191,14 +199,6 @@
     {
       "basename": "Hyper",
       "path": "02_Notes/Windows/Hyper.md"
-    },
-    {
-      "basename": "Super Note",
-      "path": "06_Templates/Super Note.md"
-    },
-    {
-      "basename": "Linux Commands",
-      "path": "02_Notes/Linux/Linux Commands.md"
     }
   ],
   "omittedPaths": [],

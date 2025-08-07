@@ -246,6 +246,9 @@ tkowo
 tymczasowy
 telefoniczna
 trwa
+trasowanie
+tszy
+tki
 date
 dkuj
 dashboard
@@ -518,6 +521,8 @@ detekcji
 dystansowa
 dzielnicy
 domowa
+docelowych
+drukarka
 YYYY
 You
 Yj
@@ -708,6 +713,10 @@ MySQL
 Mask
 Monitoruje
 Monitorowanie
+Mobilno
+Macro
+Micro
+MHz
 DD
 Data
 Dlaczego
@@ -867,6 +876,7 @@ DORA
 Domain
 Domains
 DPI
+Dobry
 status
 surowe
 sekcje
@@ -1234,6 +1244,9 @@ skuteczno
 stragany
 sklepy
 skala
+stacjonarne
+small
+stotliwo
 Remember
 Recon
 REMEMBER
@@ -1380,6 +1393,7 @@ Role
 Recursive
 Regularna
 Rozmiar
+Ryzyko
 Organize
 ORGANIZE
 Ongoing
@@ -1820,6 +1834,10 @@ czytelne
 czemu
 cznej
 czniku
+ciany
+czysz
+cells
+centra
 CyberSec
 CTF
 CheatSheet
@@ -1985,6 +2003,8 @@ Communication
 Czytelny
 Cache
 Czym
+Controller
+Charakterystyka
 Web
 Wellness
 Workouts
@@ -2129,6 +2149,7 @@ WAN
 Wide
 Wiele
 WANa
+Wie
 Exploits
 EXERCISES
 Efficiency
@@ -2237,6 +2258,7 @@ Elastyczno
 Enkapsulacja
 Encapsulation
 EDR
+Emituje
 Network
 Note
 Notice
@@ -2555,6 +2577,7 @@ Generuj
 Gasior
 Google
 Generation
+GHz
 Lab
 Linki
 Life
@@ -2663,6 +2686,8 @@ Lease
 Level
 Lan
 Local
+Lepsze
+LTE
 Status
 Spacer
 Sources
@@ -2865,6 +2890,9 @@ Statefulness
 Signature
 Sensor
 Symulowane
+Swoboda
+Smartfon
+Station
 Type
 Tagowanie
 Table
@@ -3011,6 +3039,7 @@ Top
 Twojego
 TLS
 Testy
+Tower
 Zbieraj
 Zastosowanie
 Zettelkasten
@@ -3140,6 +3169,7 @@ Zaleta
 Zdecentralizowana
 Zaprojektowany
 Zazwyczaj
+Zasi
 informacje
 is
 in
@@ -3901,6 +3931,14 @@ pojedynczym
 podstawowe
 penetracyjne
 powstaje
+poruszania
+prostsze
+przewodowej
+pods
+przewodowe
+powego
+pnia
+przenikanie
 na
 notatki
 notes
@@ -4119,6 +4157,7 @@ nieniu
 najmniejszego
 najnowsze
 nody
+nimi
 zlinkuj
 zane
 zmieni
@@ -4383,6 +4422,8 @@ zezw
 zanych
 znanych
 zachowania
+znacz
+zaludnione
 Kluczowe
 Key
 Knowledge
@@ -4495,6 +4536,8 @@ Komunikatory
 Krok
 Kategorie
 Known
+Kieruje
+Kablem
 Powi
 Podkategorie
 Pytania
@@ -4728,6 +4771,9 @@ Podobnie
 Praktyka
 Pojedy
 Pojedyncza
+Point
+Porty
+Pasmo
 Jak
 John
 Jakbym
@@ -5089,6 +5135,7 @@ wcze
 wykrywa
 wifi
 wnaniu
+wiejskie
 gdy
 goal
 growing
@@ -5195,6 +5242,7 @@ gwarantowanego
 gwarantuj
 generuje
 gateway
+generacji
 lub
 last
 learned
@@ -5514,6 +5562,12 @@ brama
 bada
 blisko
 biurowa
+bezprzewodowa
+bezprzewodowe
+bezprzewodowy
+bateri
+bezprzewodowej
+band
 ad
 an
 assumes
@@ -5768,6 +5822,9 @@ aty
 analiza
 ataki
 asno
+atmosferyczne
+antenami
+ami
 Heading
 Highlights
 Health
@@ -5857,6 +5914,7 @@ Host
 Hierarchia
 Hostname
 HIPS
+Hotspot
 Bullet
 Bold
 Blockquotes
@@ -5969,6 +6027,8 @@ Budowa
 Brama
 Breakdown
 Blokowanie
+BSC
+Backhaul
 Italic
 Important
 Idea
@@ -6334,6 +6394,10 @@ odfiltrowuje
 organizacji
 obszar
 organizacja
+okablowania
+obni
+owodowe
+obszary
 happens
 here
 hierarchies
@@ -6437,6 +6501,7 @@ hybrydowa
 hostowana
 hybryda
 handlowe
+hotspot
 you
 your
 ytkownika
@@ -6737,6 +6802,12 @@ rekursywny
 rdzeniowym
 reszt
 rozleg
+ruter
+rkowych
+rkowa
+rk
+rkowej
+rek
 making
 my
 main
@@ -6919,6 +6990,15 @@ miejsca
 migracji
 mapowanie
 mapuje
+modemem
+mobilny
+metr
+mikrofalowe
+miast
+macro
+mikrofale
+mid
+mmWave
 just
 jak
 jako
@@ -7149,6 +7229,8 @@ elastyczno
 etykieta
 ephemeral
 exploit
+elastyczny
+elektronik
 vault
 ve
 visualize
@@ -7401,6 +7483,7 @@ uchuje
 umaczy
 uchuj
 uprzywilejowania
+uch
 Areas
 Active
 Algorithm
@@ -7553,6 +7636,7 @@ Anomaly
 Agent
 Area
 Aspekt
+Antena
 Vault
 Visual
 Variation
@@ -7969,6 +8053,10 @@ kontrola
 konieczne
 kontrol
 kosztowne
+kabli
+kilkana
+kilometry
+kompromis
 quick
 questions
 queries

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 - Dashboard/HOME.md",
+                "file": "02 - Knowledge/Computer/CyberSecurity/Networks/Adresy Sieciowe.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "HOME"
+              "title": "Adresy Sieciowe"
             }
           }
         ]
@@ -163,13 +163,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 - Dashboard/HOME.md",
+                "file": "02 - Knowledge/Computer/CyberSecurity/Networks/Adresy Sieciowe.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of HOME"
+              "title": "Outline of Adresy Sieciowe"
             }
           },
           {
@@ -193,7 +193,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "3d559545f0b02229",
@@ -214,7 +214,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -236,17 +237,24 @@
   },
   "active": "6218f8e6fc67c01e",
   "lastOpenFiles": [
+    "02 - Knowledge/Computer/CyberSecurity/Networks/Koncepty Sieci.md",
+    "02 - Knowledge/Computer/CyberSecurity/Networks/Adresy Sieciowe.md",
+    "01_Reference/Pasted image 20250807140221.png",
+    "01_Reference/Pasted image 20250807140216.png",
+    "02 - Knowledge/Computer/CyberSecurity/Networks/Proxy.md",
+    "01_Reference/Pasted image 20250807140021.png",
+    "01_Reference/Pasted image 20250807140012.png",
+    "02 - Knowledge/Computer/CyberSecurity/Networks/Wireless.md",
+    "02 - Knowledge/Computer/CyberSecurity/Networks/Komponenty.md",
+    "00 - Dashboard/HOME.md",
     "02 - Knowledge/Computer/CyberSecurity/Networks/Network Main.md",
     "02 - Knowledge/Computer/CyberSecurity/Networks/Komunikacja.md",
     "02 - Knowledge/Computer/CyberSecurity/Networks/Firewall i IDS IPS.md",
-    "02 - Knowledge/Computer/CyberSecurity/Networks/Komponenty.md",
     "02 - Knowledge/Computer/CyberSecurity/Networks/Data Flow.md",
     "02 - Knowledge/Computer/CyberSecurity/Networks/Architektura.md",
     "02 - Knowledge/Computer/CyberSecurity/Networks/DNS.md",
     "02 - Knowledge/Computer/CyberSecurity/Networks/DHCP.md",
-    "02 - Knowledge/Computer/CyberSecurity/Networks/Koncepty Sieci.md",
     "04 - References/Courses/HTB/FTP i HTTP.md",
-    "00 - Dashboard/HOME.md",
     "04 - References/Courses/HTB/FTP/HTTP.md",
     "01_Reference/Pasted image 20250806165808.png",
     "04 - References/Courses/HTB/cURL.md",
@@ -255,7 +263,6 @@
     "01_Reference/Pasted image 20250806152212.png",
     "01_Reference/Pasted image 20250806151602.png",
     "01_Reference/Pasted image 20250806151528.png",
-    "02 - Knowledge/Computer/CyberSecurity/Networks/Wireless.md",
     "02 - Knowledge/Computer/CyberSecurity/Networks/Firewall i IDS/IPS.md",
     "02 - Knowledge/Computer/CyberSecurity/Networks/Firewall i IDS",
     "02 - Knowledge/Computer/CyberSecurity/Networks/Cloud Architecture2.md",
@@ -263,18 +270,12 @@
     "02 - Knowledge/Computer/CyberSecurity/Networks/Cloud Architecture1.md",
     "01_Reference/Pasted image 20250806144032.png",
     "01_Reference/Pasted image 20250804161818.png",
-    "01_Reference/Pasted image 20250804161652.png",
-    "01_Reference/Pasted image 20250804155931.png",
-    "01_Reference/Pasted image 20250804155924.png",
     "02 - Knowledge/Computer/CyberSecurity/Networks/NAT.md",
-    "01_Reference/Pasted image 20250804153539.png",
     "02 - Knowledge/Computer/CyberSecurity/Networks",
     "02 - Knowledge/Computer/CyberSecurity/CyberSec Main.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/File Content.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Zapory sieciowe.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/Zabezpieczenia Linux.md",
-    "02 - Knowledge/Computer/CyberSecurity/Linux/Logi.md",
-    "02 - Knowledge/Computer/CyberSecurity/Linux/Protokoły zdalnego pulpitu.md",
     "Bez nazwy.canvas",
     "01_Reference/linux-commands-cheat-sheet.pdf",
     "04 - References/CheatSheet",

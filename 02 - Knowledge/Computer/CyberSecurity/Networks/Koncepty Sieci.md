@@ -147,6 +147,16 @@ Takie jak 5,6,7 warstwa OSI
 
 ![[Pasted image 20250804142158.png]]
 
+
+| Zadanie               | Protokół | Opis                                                                                                                                                                                                                             |
+|-----------------------|----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Adresowanie logiczne  | IP       | Ze względu na dużą liczbę hostów w różnych sieciach, istnieje potrzeba uporządkowania topologii sieci i adresowania logicznego. W TCP/IP zadanie to przejmuje protokół IP, który adresuje sieci i węzły. Pakiety danych trafiają tylko do odpowiednich sieci. W tym celu stosuje się klasy adresów, subnetting i CIDR. |
+| Routing               | IP       | Dla każdego pakietu danych w każdym węźle na trasie od nadawcy do odbiorcy ustalany jest kolejny przeskok. Dzięki temu pakiet może dotrzeć do odbiorcy, nawet jeśli nadawca nie zna jego dokładnej lokalizacji.               |
+| Kontrola błędów i przepływu | TCP      | Nadawca i odbiorca pozostają w stałym kontakcie poprzez wirtualne połączenie. Wysyłane są ciągłe komunikaty kontrolne w celu sprawdzenia, czy połączenie nadal istnieje.                                                      |
+| Wsparcie aplikacji    | TCP      | Porty TCP i UDP tworzą abstrakcję programową umożliwiającą rozróżnienie konkretnych aplikacji i ich kanałów komunikacyjnych.                                                                                                    |
+| Rozwiązywanie nazw    | DNS      | DNS umożliwia zamianę nazw (FQDN) na adresy IP, co pozwala dotrzeć do właściwego hosta na podstawie jego nazwy w Internecie.                                                                                                   |
+
+
 ### Przykład dostępu do strony internetowej
 
 Podczas uzyskiwania dostępu do strony internetowej współpracują ze sobą różne warstwy modelu TCP/IP. W warstwie aplikacji przeglądarka korzysta z protokołu HTTP, aby zażądać strony. Następnie żądanie trafia do warstwy transportowej, gdzie TCP zapewnia niezawodny przesył danych. Warstwa internetowa (Internet Layer) zajmuje się trasowaniem pakietów danych dzięki protokołowi IP. Na końcu, w warstwie interfejsu sieciowego (Network Interface Layer), dane są fizycznie przesyłane przez sieć, co umożliwia wyświetlenie strony.
@@ -208,6 +218,72 @@ Model TCP/IP jest praktycznym fundamentem transmisji danych w sieciach i jest ak
 
 ---
 
+![[Pasted image 20250807140216.png]]
+![[Pasted image 20250807140221.png]]
+
+### 🔷 Porównanie modeli: OSI vs. TCP/IP
+
+| Warstwa OSI         | PDU         | Warstwa TCP/IP     | Rola systemowa                                           |
+| ------------------- | ----------- | ------------------ | -------------------------------------------------------- |
+| 7. **Aplikacji**    | Data        | 4. **Application** | Interakcja użytkownika z danymi (np. HTTP, DNS)          |
+| 6. **Prezentacji**  | Data        |                    | Kodowanie, szyfrowanie, serializacja                     |
+| 5. **Sesji**        | Data        |                    | Zarządzanie sesją (rozpoczęcie, utrzymanie, zakończenie) |
+| 4. **Transportu**   | **Segment** | 3. **Transport**   | Niezawodność transmisji (TCP/UDP), porty                 |
+| 3. **Sieci**        | **Pakiet**  | 2. **Internet**    | Routing, adresacja IP                                    |
+| 2. **Łącza danych** | **Ramka**   | 1. **Link**        | MAC, komunikacja lokalna, adresacja warstwy łącza        |
+| 1. **Fizyczna**     | **Bity**    | 1. **Link**        | Transmisja sygnałów binarnych (przewody, fale)           |
+### 📦 Enkapsulacja i Dekapsulacja
+
+> Każda warstwa dodaje swój **nagłówek (header)** do danych z wyższej warstwy. Proces ten to **enkapsulacja**. Po stronie odbiorcy, warstwy odwrotnie zdejmują swoje nagłówki – to **dekapsulacja**.
+
+🔁 Przykład enkapsulacji przy wysyłaniu danych:
+```
+Aplikacja (HTTP Data)
+↓ dodanie nagłówka TCP
+Transport (Segment)
+↓ dodanie nagłówka IP
+Sieć (Pakiet)
+↓ dodanie nagłówka MAC
+Łącze (Ramka)
+↓ konwersja do bitów
+Fizyczna (Transmisja binarna)
+```
+
+⬆️ Dekapsulacja u odbiorcy:
+```
+Bity
+→ Ramka
+→ Pakiet
+→ Segment
+→ Dane
+→ Aplikacja (np. przeglądarka otrzymuje stronę)
+```
+
+### 🔍 Znaczenie PDU i modeli warstwowych dla pentesterów
+
+| Kontekst         | Znaczenie dla pentestera                                                                                         |
+| ---------------- | ---------------------------------------------------------------------------------------------------------------- |
+| **Model TCP/IP** | Szybkie zrozumienie jak dane **przechodzą przez sieć** i jak wygląda ustanowienie połączenia.                    |
+| **Model OSI**    | Głębokie spojrzenie **warstwa po warstwie**, szczególnie przy analizie przechwyconego ruchu (np. w Wireshark).   |
+| **PDU**          | Pomocne przy identyfikacji i filtrowaniu pakietów w narzędziach typu sniffer.                                    |
+| **Enkapsulacja** | Pozwala lepiej rozumieć gdzie ukryty może być payload ataku (np. exploit w payloadzie HTTP → warstwa aplikacji). |
+### 🧠 Systemowe podejście: warstwy jako granice odpowiedzialności
+
+- Każda warstwa to **moduł z własną odpowiedzialnością**, który komunikuje się z bezpośrednimi sąsiadami.
+    
+- Takie podejście pozwala analizować i **lokalizować problemy** w systemie (np. czy problem z połączeniem wynika z braku routingu (L3), czy błędnej konfiguracji portu (L4)).
+    
+- Umożliwia też separację zadań – np. firewall działa na L3/L4, WAF na L7.
+
+### 🎯 Praktyczne zastosowania (z myśleniem systemowym)
+
+| Sytuacja           | Warstwa | Co analizujemy?                     |
+| ------------------ | ------- | ----------------------------------- |
+| **HTTP exploit**   | L7      | Payload w zapytaniu HTTP            |
+| **Port scanning**  | L4      | Reakcja portów na różne flagi TCP   |
+| **Routing błędny** | L3      | Traceroute, analiza tablic routingu |
+| **ARP spoofing**   | L2      | Zamiana wpisów MAC–IP               |
+| **Sniffing ruchu** | L1–L2   | Przechwytywanie ramek i ich analiza |
 
 
 ## Review Questions
