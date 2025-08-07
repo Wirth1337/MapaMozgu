@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7ce0d3ad2b793875",
+        "id": "ef3aab34aa377447",
         "type": "tabs",
         "children": [
           {
-            "id": "951130233e9bf04d",
+            "id": "6218f8e6fc67c01e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04 - References/Courses/HTB/FTP i HTTP.md",
+                "file": "00 - Dashboard/HOME.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "FTP i HTTP"
+              "title": "HOME"
             }
           }
         ]
@@ -98,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 355,
-    "collapsed": true
+    "width": 355
   },
   "right": {
     "id": "62568a0377e7edf7",
@@ -150,12 +149,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Markdown Cheatsheat.md",
+                "file": "02 - Knowledge/Computer/CyberSecurity/Networks/Network Main.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Łącza wychodzące z Markdown Cheatsheat"
+              "title": "Outgoing links from Network Main"
             }
           },
           {
@@ -164,13 +163,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Markdown Cheatsheat.md",
+                "file": "00 - Dashboard/HOME.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Konspekt Markdown Cheatsheat"
+              "title": "Outline of HOME"
             }
           },
           {
@@ -194,7 +193,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "3d559545f0b02229",
@@ -215,8 +214,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -236,40 +234,40 @@
       "graph:Open graph view": false
     }
   },
-  "active": "951130233e9bf04d",
+  "active": "6218f8e6fc67c01e",
   "lastOpenFiles": [
-    "00 - Dashboard/HOME.md",
+    "02 - Knowledge/Computer/CyberSecurity/Networks/Network Main.md",
+    "02 - Knowledge/Computer/CyberSecurity/Networks/Komunikacja.md",
+    "02 - Knowledge/Computer/CyberSecurity/Networks/Firewall i IDS IPS.md",
+    "02 - Knowledge/Computer/CyberSecurity/Networks/Komponenty.md",
+    "02 - Knowledge/Computer/CyberSecurity/Networks/Data Flow.md",
+    "02 - Knowledge/Computer/CyberSecurity/Networks/Architektura.md",
+    "02 - Knowledge/Computer/CyberSecurity/Networks/DNS.md",
+    "02 - Knowledge/Computer/CyberSecurity/Networks/DHCP.md",
+    "02 - Knowledge/Computer/CyberSecurity/Networks/Koncepty Sieci.md",
     "04 - References/Courses/HTB/FTP i HTTP.md",
+    "00 - Dashboard/HOME.md",
     "04 - References/Courses/HTB/FTP/HTTP.md",
     "01_Reference/Pasted image 20250806165808.png",
     "04 - References/Courses/HTB/cURL.md",
     "04 - References/Courses/HTB/FTP",
     "04 - References/Courses/HTB/Untitled.md",
-    "02 - Knowledge/Computer/CyberSecurity/Networks/Komponenty.md",
-    "02 - Knowledge/Computer/CyberSecurity/Networks/Koncepty Sieci.md",
-    "02 - Knowledge/Computer/CyberSecurity/Networks/Data Flow.md",
     "01_Reference/Pasted image 20250806152212.png",
-    "02 - Knowledge/Computer/CyberSecurity/Networks/Firewall i IDS IPS.md",
     "01_Reference/Pasted image 20250806151602.png",
     "01_Reference/Pasted image 20250806151528.png",
     "02 - Knowledge/Computer/CyberSecurity/Networks/Wireless.md",
     "02 - Knowledge/Computer/CyberSecurity/Networks/Firewall i IDS/IPS.md",
     "02 - Knowledge/Computer/CyberSecurity/Networks/Firewall i IDS",
-    "02 - Knowledge/Computer/CyberSecurity/Networks/Architektura.md",
     "02 - Knowledge/Computer/CyberSecurity/Networks/Cloud Architecture2.md",
     "02 - Knowledge/Computer/CyberSecurity/Networks/Cloud Architecture.md",
     "02 - Knowledge/Computer/CyberSecurity/Networks/Cloud Architecture1.md",
     "01_Reference/Pasted image 20250806144032.png",
     "01_Reference/Pasted image 20250804161818.png",
     "01_Reference/Pasted image 20250804161652.png",
-    "02 - Knowledge/Computer/CyberSecurity/Networks/DNS.md",
     "01_Reference/Pasted image 20250804155931.png",
     "01_Reference/Pasted image 20250804155924.png",
     "02 - Knowledge/Computer/CyberSecurity/Networks/NAT.md",
     "01_Reference/Pasted image 20250804153539.png",
-    "02 - Knowledge/Computer/CyberSecurity/Networks/DHCP.md",
-    "02 - Knowledge/Computer/CyberSecurity/Networks/Komunikacja.md",
-    "02 - Knowledge/Computer/CyberSecurity/Networks/Network Main.md",
     "02 - Knowledge/Computer/CyberSecurity/Networks",
     "02 - Knowledge/Computer/CyberSecurity/CyberSec Main.md",
     "02 - Knowledge/Computer/CyberSecurity/Linux/File Content.md",

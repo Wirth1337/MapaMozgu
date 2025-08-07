@@ -1,36 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "FTP i HTTP",
-      "path": "04 - References/Courses/HTB/FTP i HTTP.md"
-    },
-    {
       "basename": "HOME",
       "path": "00 - Dashboard/HOME.md"
     },
     {
-      "basename": "cURL",
-      "path": "04 - References/Courses/HTB/cURL.md"
+      "basename": "Network Main",
+      "path": "02 - Knowledge/Computer/CyberSecurity/Networks/Network Main.md"
     },
     {
-      "basename": "Komponenty",
-      "path": "02 - Knowledge/Computer/CyberSecurity/Networks/Komponenty.md"
-    },
-    {
-      "basename": "Koncepty Sieci",
-      "path": "02 - Knowledge/Computer/CyberSecurity/Networks/Koncepty Sieci.md"
-    },
-    {
-      "basename": "Data Flow",
-      "path": "02 - Knowledge/Computer/CyberSecurity/Networks/Data Flow.md"
+      "basename": "Komunikacja",
+      "path": "02 - Knowledge/Computer/CyberSecurity/Networks/Komunikacja.md"
     },
     {
       "basename": "Firewall i IDS IPS",
       "path": "02 - Knowledge/Computer/CyberSecurity/Networks/Firewall i IDS IPS.md"
     },
     {
-      "basename": "Wireless",
-      "path": "02 - Knowledge/Computer/CyberSecurity/Networks/Wireless.md"
+      "basename": "Komponenty",
+      "path": "02 - Knowledge/Computer/CyberSecurity/Networks/Komponenty.md"
+    },
+    {
+      "basename": "Data Flow",
+      "path": "02 - Knowledge/Computer/CyberSecurity/Networks/Data Flow.md"
     },
     {
       "basename": "Architektura",
@@ -41,20 +33,28 @@
       "path": "02 - Knowledge/Computer/CyberSecurity/Networks/DNS.md"
     },
     {
-      "basename": "NAT",
-      "path": "02 - Knowledge/Computer/CyberSecurity/Networks/NAT.md"
-    },
-    {
       "basename": "DHCP",
       "path": "02 - Knowledge/Computer/CyberSecurity/Networks/DHCP.md"
     },
     {
-      "basename": "Komunikacja",
-      "path": "02 - Knowledge/Computer/CyberSecurity/Networks/Komunikacja.md"
+      "basename": "Koncepty Sieci",
+      "path": "02 - Knowledge/Computer/CyberSecurity/Networks/Koncepty Sieci.md"
     },
     {
-      "basename": "Network Main",
-      "path": "02 - Knowledge/Computer/CyberSecurity/Networks/Network Main.md"
+      "basename": "FTP i HTTP",
+      "path": "04 - References/Courses/HTB/FTP i HTTP.md"
+    },
+    {
+      "basename": "cURL",
+      "path": "04 - References/Courses/HTB/cURL.md"
+    },
+    {
+      "basename": "Wireless",
+      "path": "02 - Knowledge/Computer/CyberSecurity/Networks/Wireless.md"
+    },
+    {
+      "basename": "NAT",
+      "path": "02 - Knowledge/Computer/CyberSecurity/Networks/NAT.md"
     },
     {
       "basename": "CyberSec Main",
